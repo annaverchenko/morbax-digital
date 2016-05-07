@@ -1,0 +1,239 @@
+Coding styles
+
+Primary thing:
+    if you’re building large apps or sites - avoid nesting and keep your CSS simple, performant, and easy to parse.
+
+
+
+1. Whitespace
+
+    Only one style should exist across the entire source of your code-base.
+    Never mix spaces and tabs for indentation.
+    If using spaces, choose the number of characters used per indentation level. (Preference: 4 spaces)
+
+
+
+
+2.	Comments
+
+    Well commented code is extremely important. Take time to describe components, how they work, their limitations, and the way they are constructed.
+
+    Comments styles:
+
+        - Place comments on a new line above their subject.
+        - Keep line-length to a sensible maximum, e.g., 80 columns.
+        - Make liberal use of comments to break CSS code into discrete sections.
+        - Use "sentence case" comments and consistent text indentation.
+
+
+
+
+3. Format
+
+    - Use one discrete selector per line in multi-selector rulesets.
+    - Include a single space before the opening brace of a ruleset.
+    - Include one declaration per line in a declaration block.
+    - Use one level of indentation for each declaration.
+    - Include a single space after the colon of a declaration.
+    - Use lowercase and shorthand hex values, e.g., #aaa.
+    - Use single or double quotes consistently. Preference is for double quotes, e.g., content: "".
+    - Quote attribute values in selectors, e.g., input[type="checkbox"].
+    - Where allowed, avoid specifying units for zero-values, e.g., margin: 0.
+    - Include a space after each comma in comma-separated property or function values.
+    - Include a semi-colon at the end of the last declaration in a declaration block.
+    - Place the closing brace of a ruleset in the same column as the first character of the ruleset.
+    - Separate each ruleset by a blank line.
+
+
+
+4. Declaration order
+
+    .selector {
+
+        /* Extends and mixins */
+
+        @extend .other-rule;
+        @include box-sizing(border-box);
+
+        /* Display & Box Model */
+
+        display
+        content
+        float
+        clear
+
+        width
+        height
+        line-height
+        margin
+        padding
+        box-sizing
+
+
+        /* Font settings */
+
+        font-family
+        font-size
+        font-weight
+        font-style
+        color
+        text-align
+        text-decoration
+        text-transform
+        white-space
+        overflow
+
+
+        /* Other */
+
+        background
+        border
+        border-radius
+        box-shadow
+        transform
+        transition
+
+
+        /* Positioning */
+
+        position
+        top
+        right
+        bottom
+        left
+        z-index
+    }
+
+
+
+    4.1 Declarations exceptions and slight deviations
+
+        - Single declarations may look like this:
+            .selector-1 { width: 10px; }
+        - Long, comma-separated property values
+            .selector {
+                background-image:
+                    linear-gradient(#fff, #ccc),
+                    linear-gradient(#f3c, #4ec);
+                box-shadow:
+                    1px 1px 1px #000,
+                    2px 2px 1px 1px #ccc inset;
+            }
+
+    4.2 Avoid shorthands
+
+        // bad:
+
+            margin: 0 0 2px 3px;
+
+        // good:
+
+            margin-left: 3px;
+            margin-bottom: 2px;
+
+
+
+
+5. Preprocessors: additional format considerations.
+
+    - Limit nesting to 1 level deep
+    - Avoid any nesting more than 2 levels deep. This prevents overly-specific CSS selectors.
+    - Avoid large numbers of nested rules. Break them up when readability starts to be affected.
+      Preference to avoid nesting that spreads over more than 20 lines.
+    - Always place @extend statements on the first lines of a declaration block.
+    - Where possible, group @include statements at the top of a declaration block, after any @extend statements.
+
+
+6. Don't use @import
+
+    Compared to <link>s, @import is slower, adds extra page requests, and can cause other unforeseen problems.
+
+
+7. Media query placement
+
+    Place media queries as close to their relevant rule sets whenever possible. Don't bundle them all in a separate stylesheet or at the end of the document.
+
+
+8. Prefixed properties
+
+    Prefixed properties:
+
+    selector {
+        -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
+           -moz-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
+            -ms-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
+             -o-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
+                box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
+    }
+
+
+9. Nesting in Sass
+
+    // bad:
+
+        .parent {
+            h1 { }
+            span { }
+            a { }
+        }
+
+    // good:
+
+        .parent-heading { }
+        .parent-subheading { }
+        .parent-permalink { }
+
+    // comment:
+
+        Those classes have lower specificity, more meaningful selectors, and are component-based.
+
+    9.1 Overspecific selectors
+
+        // bad:
+
+            .parent {
+                .parent-child { }
+                .parent-child2 { }
+                .parent-modifier { }
+                .parent-modifier2 { }
+            }
+
+        // good:
+
+            .parent-child { }
+            .parent-child2 { }
+            .parent-modifier { }
+            .parent-modifier2 { }
+
+    9.2 Un-nesting with & (avoid using it)
+
+        .child {
+          .parent & { }
+        }
+
+        When used at the end of a nested selector, the & puts everything to the left of it before the parent selector:
+
+        .parent .child { }
+
+    9.3 BEM nesting with & (avoid using it)
+
+        .block {
+          &__element { }
+          &--modifier { }
+        }
+
+        When you’re debugging something with a browser’s Inspector, you only see the final, compiled class. So, when you need to search your code base for .block__element, you won’t find it.
+
+        .block__element { }
+        .block--modifier { }
+
+    9.4 Nesting pseudo-classes with &
+        
+        Nesting with pseudo-classes feels like the only practical way to nest your CSS.
+
+        .btn {
+          &:hover,
+          &:focus { }
+
+          &:active { }
+        }

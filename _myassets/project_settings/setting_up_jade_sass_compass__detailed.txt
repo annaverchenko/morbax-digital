@@ -1,0 +1,125 @@
+Project managing from scratch
+
+
+1. Create folders in Total Commander
+	
+	1.1 copy project template from e:\_Programming\_project_template
+	1.2 create/open project in WebStorm
+	1.3 create/open project in SublimeText
+
+
+2. Sass
+
+	2.1 Install Ruby first (https://www.ruby-lang.org/ru/)
+
+		Ruby Command Line:
+			$ gem update --system
+			$ help
+			$ dir (see directories)
+			$ cd (change directory)
+			$ cls (clear command line)
+
+	2.2 Install Sass via Ruby Command Line
+
+		Ruby Command Line:
+			$ gem install sass (install Sass)
+			$ sass -v (check Sass version)
+			$ sass -help
+			$ cls (clear command line)
+
+	2.3 Using Sass
+
+		Ruby Command Line:
+			$ sass --watch folderName 
+			$ sass --watch --style expanded 
+			$ sass --watch inputDir:outputDir (e.g. sass --watch scss:css)
+			$ sass --watch sass:css --style expanded
+				(expanded / nested / compact / compressed)
+
+
+3. Compass
+
+	3.1 Install Compass via Ruby Command Line
+		$ gem install compass
+		$ compass -h, --help
+		$ compass help <command>
+
+	3.2 Add Compass to an existing project
+		$ compass init (initialize an existing project to work with compass)
+
+	3.3 Set Compass options (config.rb)
+
+		3.3.1	see config(template).rb
+
+	3.4 Remove from rootFolder:
+
+		sass-cache (folder)
+		sass (folder)
+		stylesheets (folder)
+
+	3.5 $ compass compile pathToProject
+		(compile the project's sass files into css)
+
+	3.6 $ compass watch pathToProject
+		(watch the project for changes and compile whenever it does)
+
+		E:\Work\projectFolder> $ compass watch
+
+	3.7	$ compass validate pathToProject
+		(validate the generated CSS.)
+
+
+	3.8 Importing
+
+		3.8.1 @import
+
+			@import "base"; (the _base.scss must be in the same folder)
+			@import "mixins"; (the _mixin.scss must be in the same folder)
+		
+		2.8.2 via Compass
+
+			@import "compass"
+
+			@import "compass/base";
+			@import "compass/mixins";
+
+
+4.Jade
+
+	4.1 Install NodeJS first (https://nodejs.org/en/)
+	
+		Node.js Command Line:
+			$ help
+			$ dir (see directories)
+			$ cd (change directory)
+			$ cls (clear command line)
+
+	4.2 Install Jade via Node.js Command Line
+
+		Node.js Command Line:
+			$ npm install jade --global
+			$ jade -V, --version
+			$ jade -h, --help
+			$ cls (clear command line)
+
+	4.3 Using Jade
+
+		Node.js Command Line:
+			$ jade file.jade (compile jade file)
+			$ jade -w, --watch
+			$ jade -P, --pretty (enable new lines and spacings)
+			$ jade -H, --hierarchy (keep directory hierarchy when a directory is specified)
+
+			$ jade --pretty --watch [folderName]
+			$ jade -P -w [folderName]
+			$ jade jadeFolder --out htmlFolder
+			
+			$ jade jadeFolder --out htmlFolder
+			
+			jade --watch jadeFolder --pretty --out htmlFolder
+
+			jade -P -w jadeFolder --out htmlFolder
+
+			$ jade {foo,bar}.jade (Create {foo,bar}.html)
+
+			more: http://jade-lang.com/command-line/

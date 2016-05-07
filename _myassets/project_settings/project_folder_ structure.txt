@@ -1,0 +1,55 @@
+Source:
+http://webstandardssherpa.com/reviews/sass-for-big-sites-part-1/
+http://webstandardssherpa.com/reviews/sass-for-big-sites-part-2/
+
+
+FOLDER STRUCTURE
+
+sass/
+
+  Here: top-level files, directly compiled into .css and loaded on a page via <link...>
+
+  Each individual page will load its own CSS file(s)
+
+
+sass/_components
+
+  Here: top-level files (components) that can be used on any page, but not on every page.
+
+  The files can be imported by any individual file that needs it.
+
+  No underscore in file names.
+
+  Overal: we might have over 40 general-use partials in our /_components folder, each one used in two or more places around the site.
+
+
+sass/_partials
+
+  Here: reusable page components that can be used over and over again (OAOAO)
+  The partials are: _variables.scss, _extends.scss, _functions.scss, _mixins.scss
+
+  These files get imported into every single .scss file.
+
+
+sass/modules
+
+  Here: reusable page components that can be used over and over again (OAOAO)
+  The partials are: _buttons.scss, _dropdowns.scss, etc.
+
+  The partials in the /_modules folder are (automatically) included in our global-modules.scss file
+  (because these partials should be available on every page)
+
+
+sass/modules/_global-modules.scss
+
+  This file contains styles for standard things like buttons, dropdowns, etc.
+  This file only imports all of the single partials; each single partial contains its module with a global element (e.g. buttons, dropdowns)
+  The partials in the /_modules folder are automatically included in our global.scss file
+
+
+sass/pages (/_page-name-partial.scss)
+
+  Page-specific partials here.
+  These files are not for reusing OAOA.
+  We should often split up large page-specific .scss files into smaller parts/partials (even if they will not be re-used)
+  (to make code maintaining easier)

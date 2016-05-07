@@ -1,0 +1,6 @@
+# ignore forlders:
+
+.idea/
+_myassets/
+assets/html/
+assets/css/

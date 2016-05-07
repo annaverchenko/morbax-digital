@@ -1,0 +1,90 @@
+// Document: _base.scss
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font: {
+        family: "Helvetica Regular", sans-serif;
+        size: $font-size-medium;
+        weight: 400;
+        style: normal;
+    }
+
+    color: $text-color-std;
+
+    -webkit-font-smoothing:  antialiased;
+    background-color: $body-bg;
+}
+
+main { display: block; }
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        margin: 0;
+    }
+}
+
+input[type="submit"] {
+    margin: 0;
+    padding: 0;
+    background-color: initial;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="search"] {
+    -webkit-appearance: none;
+    border: none;
+}
+
+button {
+    padding: 0;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+
+    &::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+}
+
+
+* {
+    @include transition(duration, .2s);
+
+    outline: none;
+}
+
+
+
+
+
+// keeps footer at the bottom of the page
+
+html,
+body {
+    height: 100%;
+}
+
+main { padding-bottom: 300px; }

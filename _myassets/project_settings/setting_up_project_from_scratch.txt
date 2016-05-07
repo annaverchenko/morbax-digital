@@ -1,0 +1,38 @@
+This document is about how to create a project from scratch using: IDE WebStorm, Jade, SASS/Compass, Git.
+
+1. Project - create a new project
+
+	Open WebStorm > Create New Project
+
+
+2. My assets - copy _myassets folder from <project template> to the newly created project
+
+
+3. Compass - install Compass to the newly creted project
+
+	Instructions on how to install Compass to an existing project: _myassets/project_settings/Jade_SASS_Compass__detailed.txt
+
+
+4. Assets - create assets/ (folder)
+
+
+5. JS, Images, Fonts - create in assets/ : js/, images/, fonts/
+
+
+6. FileWatchers - customize FileWatchers in IDE WebStorm
+
+	Instructions: _myassets/project_settings/File_Watchers_(IDE WebStorm).txt
+
+
+7. Copying folders _layouts/, _modules/, etc.
+
+
+8. Git
+
+	$ git init
+	
+	.gitignore
+
+	$ git add .
+
+	$ git commit -m "initial commit"

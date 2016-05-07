@@ -1,0 +1,6 @@
+# ignore forlders:
+
+.idea/
+assets/sass/.sass-cache/
+# assets/html/
+# assets/css/
