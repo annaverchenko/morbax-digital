@@ -1,0 +1,57 @@
+/*
+.a {
+    @include absolute();
+}
+
+.b {
+    @include absolute(top);
+}
+
+.c {
+    @include absolute(top right);
+}
+
+.d {
+    @include absolute(top right bottom);
+}
+
+.e {
+    @include absolute(top right bottom left);
+}
+
+.f {
+    @include absolute(top right 1em);
+}
+
+.g {
+    @include absolute(top 1em right);
+}
+
+.h {
+    @include absolute(top 1em right 100%);
+}
+
+.i {
+    @include absolute(top right mistake);
+}
+
+.j {
+    @include absolute(top 1em right 1em bottom 1em left 1em)
+}
+*/
+/* line 19, ../sass/styles.scss */
+.main-page {
+  width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: forestgreen;
+  text-align: center;
+  font-family: "Helvetica Regular", sans-serif;
+}
+/* line 27, ../sass/styles.scss */
+.main-page p {
+  display: block;
+  width: 100%;
+  color: #ff9876;
+  font-size: 2rem;
+}

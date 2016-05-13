@@ -1,0 +1,34 @@
+// Document: _catalog-styles.scss
+
+@import "_themes/themes";
+@import "_helpers/flexbox";
+@import "_helpers/mixins";
+@import "_helpers/variables";
+@import "_helpers/spacing_n_sizing";
+@import "_helpers/typography";
+
+
+// page partials
+
+
+// modules
+
+
+// themes
+
+.main-page {
+  width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: forestgreen;
+  text-align: center;
+  font-family: "Helvetica Regular", sans-serif;
+
+  p {
+    display: block;
+    width: 100%;
+    color: #ff9876;
+    font-size: 2rem;
+  }
+
+}

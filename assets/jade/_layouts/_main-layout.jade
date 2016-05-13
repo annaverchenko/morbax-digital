@@ -1,6 +1,6 @@
 //- Document: _main-layout.jade
 
-doctype html
+doctype
 html(lang="en")
     head
         // Page title
@@ -35,13 +35,5 @@ html(lang="en")
 
     body
 
-        //- Basic page structure:
-            <div class="layout-page-wrapper">
-                <header></header>
-                <main>
-                    <div class="layout-main-container">
-                        <div class="layout-type"></div>
-                    </div>
-                </main>
-                <footer></footer>
-            </div>
+        //Block main-page
+        block main-page
