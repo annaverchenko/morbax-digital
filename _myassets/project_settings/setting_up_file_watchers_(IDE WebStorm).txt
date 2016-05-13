@@ -6,7 +6,7 @@ These setting will let you output .jade files to .html files, retaining the dire
 	Open WebStorm, then go to WebStorm settings (ctrl + alt + S)
 	Find: Tools > File Watchers > Jade (Create if there is none)
 
-	Program: C:\Users\Игорь\AppData\Roaming\npm\jade.cmd
+	Program: C:\Users\Anna\AppData\Roaming\npm\jade.cmd
 	Arguments: $FileName$ --pretty --out $ProjectFileDir$\assets\html\$FileDirPathFromParent(jade)$
 	Working directory: $FileDir$
 	Output paths to refresh: (leave empty)
@@ -22,12 +22,12 @@ https://youtrack.jetbrains.com/issue/WEB-9812#
 
 		Enable Compass support (must be checked)
 		Compass executable file: C:\Ruby22\lib\ruby\gems\2.2.0\gems\compass-1.0.3\bin\compass
-		Config path: E:\<path/to/project-foler>\config.rb
+		Config path: E:\<path/to/project-folder>\config.rb
 
 
 	2.2 Find: Tools > File Watchers > Compass SCSS (Create if there is none)
 
-		Program:					C:\Ruby22\bin\compass.bat
+		Program:					C:\Ruby22-x64\bin\compass.bat
 		Arguments:					compile E:/<path/to/project-folder> $UnixSeparators($FilePath$)$
 		Working directory:			E:/<path/to/project-folder>
 		Output paths to refresh:	E:/<path/to/project-folder>
