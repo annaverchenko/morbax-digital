@@ -1,6 +1,6 @@
 # ignore forlders:
 
 .idea/
-assets/sass/.sass-cache/
-# assets/html/
-# assets/css/
+
+_myassets/sliced/
+_myassets/psd/
