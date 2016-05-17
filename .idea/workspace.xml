@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6801598d-674c-4b11-986c-817f3a3ad679" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/078a6a3385fd2fed8a413fa47cbc2c23cb3a1ac6/styles.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/078a6a3385fd2fed8a413fa47cbc2c23cb3a1ac6/styles.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/0e72566783f357ba52ff1cbfe239d16ce6333bab/_themes.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/0e72566783f357ba52ff1cbfe239d16ce6333bab/_themes.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/global.css" afterPath="$PROJECT_DIR$/assets/css/global.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/styles.css" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/html/pages/page/index.html" afterPath="$PROJECT_DIR$/assets/html/pages/page/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/jade/pages/page/index.jade" afterPath="$PROJECT_DIR$/assets/jade/pages/page/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/_themes/_themes.scss" afterPath="$PROJECT_DIR$/assets/sass/_themes/_themes.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/styles.scss" afterPath="$PROJECT_DIR$/assets/sass/styles.scss" />
     </list>
     <ignored path="site.iws" />
@@ -46,8 +44,8 @@
           <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/jade/pages/page/index.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.43536586">
-                  <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.4097561">
+                  <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -60,19 +58,11 @@
           <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/sass/styles.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.45189872">
-                  <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_flexbox.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/sass/_helpers/_flexbox.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.242424">
-                  <caret line="404" column="23" selection-start-line="404" selection-start-column="23" selection-end-line="404" selection-end-column="23" />
-                  <folding />
+                <state vertical-scroll-proportion="0.6544304">
+                  <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#711#42250#2" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -102,9 +92,9 @@
         <option value="$PROJECT_DIR$/assets/sass/_fonts/_face-font-directive.scss" />
         <option value="$PROJECT_DIR$/assets/jade/_layouts/_main-layout.jade" />
         <option value="$PROJECT_DIR$/assets/sass/_fonts/_fonts.scss" />
-        <option value="$PROJECT_DIR$/assets/jade/pages/page/index.jade" />
         <option value="$PROJECT_DIR$/assets/css/global.css" />
         <option value="$PROJECT_DIR$/assets/sass/_themes/_themes.scss" />
+        <option value="$PROJECT_DIR$/assets/jade/pages/page/index.jade" />
         <option value="$PROJECT_DIR$/assets/sass/styles.scss" />
       </list>
     </option>
@@ -465,7 +455,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#711#42250#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -698,14 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/_helpers/_flexbox.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.242424">
-          <caret line="404" column="23" selection-start-line="404" selection-start-column="23" selection-end-line="404" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../working-directory/assets/jade/pages/catalog/catalog.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25609756">
@@ -726,14 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15365854">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/jade/pages/page/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43536586">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -770,11 +746,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/jade/pages/page/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4097561">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/_helpers/_flexbox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6657825">
+          <caret line="402" column="7" selection-start-line="402" selection-start-column="7" selection-end-line="402" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45189872">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.6544304">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="e#711#42250#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

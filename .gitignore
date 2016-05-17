@@ -1,6 +1,6 @@
 # ignore forlders:
 
-# .idea/
+.idea/
 
 _myassets/sliced/
 _myassets/psd/
