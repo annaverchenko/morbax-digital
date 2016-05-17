@@ -21,6 +21,8 @@
   margin: 0 auto;
   background: url("../images/main-page-bg.png") no-repeat 0 0;
   background-size: cover;
+  @include flex-parent($justify-content: space-around);
+
 }
 
 .logo-name-slogan {
