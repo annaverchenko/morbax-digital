@@ -39,18 +39,39 @@
     @include absolute(top 1em right 1em bottom 1em left 1em)
 }
 */
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../../fonts/roboto/Roboto-Regular/Roboto-Regular.eot");
+  src: url("../../fonts/roboto/Roboto-Regular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto/Roboto-Regular/Roboto-Regular.woff") format("woff"), url("../../fonts/roboto/Roboto-Regular/Roboto-Regular.ttf") format("truetype"), url("../../fonts/roboto/Roboto-Regular/Roboto-Regular.svg") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url("../../fonts/roboto/Roboto-Light/Roboto-Light.eot");
+  src: url("../../fonts/roboto/Roboto-Light/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto/Roboto-Light/Roboto-Light.woff") format("woff"), url("../../fonts/roboto/Roboto-Light/Roboto-Light.ttf") format("truetype"), url("../../fonts/roboto/Roboto-Light/Roboto-Light.svg") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url("../../fonts/roboto/Roboto-Bold/Roboto-Bold.eot");
+  src: url("../../fonts/roboto/Roboto-Bold/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto/Roboto-Bold/Roboto-Bold.woff") format("woff"), url("../../fonts/roboto/Roboto-Bold/Roboto-Bold.ttf") format("truetype"), url("../../fonts/roboto/Roboto-Bold/Roboto-Bold.svg") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
 /* line 19, ../sass/styles.scss */
 .main-page {
-  width: 1280px;
   height: 100vh;
   margin: 0 auto;
-  background-color: forestgreen;
-  text-align: center;
-  font-family: "Helvetica Regular", sans-serif;
+  background: url("../images/main-page-bg.png") no-repeat 0 0;
+  background-size: cover;
 }
-/* line 27, ../sass/styles.scss */
-.main-page p {
-  width: 100%;
-  color: red;
-  font-size: 2rem;
+
+/* line 26, ../sass/styles.scss */
+.logo-name-slogan {
+  width: 254px;
+  height: 370px;
+  margin: 0 auto;
+  background-color: #b7dbff;
 }
