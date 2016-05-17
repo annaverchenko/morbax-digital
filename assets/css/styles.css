@@ -62,9 +62,10 @@
 }
 /* line 19, ../sass/styles.scss */
 .main-page {
+  width: 1600px;
   height: 100vh;
   margin: 0 auto;
-  background: url("../images/main-page-bg.png") no-repeat 0 0;
+  background: #fff url("../images/main-page-bg.png") no-repeat 0 0;
   background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
@@ -92,7 +93,7 @@
   flex-wrap: wrap;
 }
 
-/* line 28, ../sass/styles.scss */
+/* line 29, ../sass/styles.scss */
 .logo-name-slogan {
   width: 254px;
   height: 370px;

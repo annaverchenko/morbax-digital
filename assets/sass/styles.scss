@@ -17,9 +17,10 @@
 // themes
 
 .main-page {
+  width: 1600px;
   height: 100vh;
   margin: 0 auto;
-  background: url("../images/main-page-bg.png") no-repeat 0 0;
+  background: #fff url("../images/main-page-bg.png") no-repeat 0 0;
   background-size: cover;
   @include flex-parent($justify-content: space-around);
 
