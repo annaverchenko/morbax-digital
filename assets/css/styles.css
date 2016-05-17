@@ -50,8 +50,7 @@
 }
 /* line 27, ../sass/styles.scss */
 .main-page p {
-  display: block;
   width: 100%;
-  color: #ff9876;
+  color: red;
   font-size: 2rem;
 }
