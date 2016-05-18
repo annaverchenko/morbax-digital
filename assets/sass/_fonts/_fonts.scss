@@ -1,17 +1,5 @@
 @font-face {
     font-family: 'roboto-condensed';
-    src: url('../../fonts/roboto-condensed/roboto-condensed.regular/roboto-condensed.regular.eot');
-    src:
-            url('../../fonts/roboto-condensed/roboto-condensed.regular/roboto-condensed.regular.eot?#iefix') format('embedded-opentype'),
-            url('../../fonts/roboto-condensed/roboto-condensed.regular/roboto-condensed.regular.woff') format('woff'),
-            url('../../fonts/roboto-condensed/roboto-condensed.regular/roboto-condensed.regular.ttf') format('truetype'),
-            url('../../fonts/roboto-condensed/roboto-condensed.regular/roboto-condensed.regular.svg') format('svg');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'roboto-condensed';
     src: url('../../fonts/roboto-condensed/roboto-condensed.light/roboto-condensed.light.eot');
     src:
             url('../../fonts/roboto-condensed/roboto-condensed.light/roboto-condensed.light.eot?#iefix') format('embedded-opentype'),
@@ -20,6 +8,18 @@
             url('../../fonts/roboto-condensed/roboto-condensed.light/roboto-condensed.light.svg') format('svg');
     font-weight: 200;
     font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto-condensed';
+  src: url('../../fonts/roboto-condensed/roboto-condensed.regular/roboto-condensed.regular.eot');
+  src:
+          url('../../fonts/roboto-condensed/roboto-condensed.regular/roboto-condensed.regular.eot?#iefix') format('embedded-opentype'),
+          url('../../fonts/roboto-condensed/roboto-condensed.regular/roboto-condensed.regular.woff') format('woff'),
+          url('../../fonts/roboto-condensed/roboto-condensed.regular/roboto-condensed.regular.ttf') format('truetype'),
+          url('../../fonts/roboto-condensed/roboto-condensed.regular/roboto-condensed.regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
@@ -32,6 +32,17 @@
             url('../../fonts/roboto-condensed/roboto-condensed.bold/roboto-condensed.bold.svg') format('svg');
     font-weight: bold;
     font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Myriad-pro';
+    src: url('../../fonts/Myriad-pro/MyriadPro-Regular.eot');
+    src:
+            url('../../fonts/Myriad-pro/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+            url('../../fonts/Myriad-pro/MyriadPro-Regular.woff') format('woff'),
+            url('../../fonts/Myriad-pro/MyriadPro-Regular.ttf') format('truetype'),
+            url('../../fonts/Myriad-pro/MyriadPro-Regular.svg') format('svg');
 }
 
 
