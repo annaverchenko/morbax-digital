@@ -26,6 +26,7 @@
   background: url("../images/main-page-bg.png") no-repeat center;
   background-size: cover;
   position: relative;
+  font-family: 'roboto-condensed', sans-serif;
 }
 
 .logo {
@@ -39,7 +40,6 @@
 
 .intro {
   margin-bottom: auto;
-  font-family: 'roboto-condensed';
   font-size: $font-size-xxxmedium;
   font-weight: $font-weight-normal;
   text-transform: uppercase;
@@ -53,14 +53,12 @@
 //main-page btn-menu
 
 .btn-menu {
-  position: absolute;
-  top: 30px;
-  left: 30px;
+  @include absolute ( top 30px left 30px );
+
   width: 40px;
   height: 40px;
   line-height: 40px;
-  padding-left: 50px;
-  font-family: 'roboto-condensed';
+  padding-left: $spacing-xxlarge;
   font-size: $font-size-xmedium;
   font-weight: $font-weight-normal;
   color: #bdbdbd;
@@ -73,16 +71,15 @@
 //main-page opened-menu
 
 .opened-menu {
-   //display: none;
+  @include flex-parent($flex-direction: column );
+  @include absolute( top 0 left 0);
+
+  //display: none;
   width: 282px;
   height: 100%;
   background-color: #009795;
-  position: absolute;
-  top: 0;
-  left: 0;
   color: #fff;
   text-transform: uppercase;
-  font-family: 'roboto-condensed';
   font-size: $font-size-xmedium;
   font-weight: $font-weight-normal;
 }
@@ -106,6 +103,7 @@ ul {
       border-bottom: 1px solid transparentize( #fff, .5 );
       background-position: 10% 50%;
       background-repeat: no-repeat;
+      cursor: pointer;
     }
   }
 }
@@ -148,10 +146,31 @@ ul {
   margin-left: $spacing-medium;
   margin-right: $spacing-medium;
   margin-bottom: 0;
-  text-align: center;
   text-align: -webkit(center);
   background-color: #fd6326;
   font-weight: $font-weight-normal;
   font-size: $font-size-small;
   cursor: pointer;
+}
+
+
+//open-menu social-cell
+
+.social-cell {
+  margin-top: auto;
+  background-color: #bdbdbd;
+}
+
+.social {
+}
+
+.facebook {
+
+}
+
+.google-plus {
+}
+
+.cell {
+
 }

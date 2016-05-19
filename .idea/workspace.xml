@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6801598d-674c-4b11-986c-817f3a3ad679" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/078a6a3385fd2fed8a413fa47cbc2c23cb3a1ac6/styles.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/078a6a3385fd2fed8a413fa47cbc2c23cb3a1ac6/styles.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/a0cc47f3c45f5ff230996fee33998276c7018fac/_typography.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/a0cc47f3c45f5ff230996fee33998276c7018fac/_typography.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/styles.css" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/html/pages/page/index.html" afterPath="$PROJECT_DIR$/assets/html/pages/page/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/jade/pages/page/index.jade" afterPath="$PROJECT_DIR$/assets/jade/pages/page/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/_helpers/_typography.scss" afterPath="$PROJECT_DIR$/assets/sass/_helpers/_typography.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/styles.scss" afterPath="$PROJECT_DIR$/assets/sass/styles.scss" />
     </list>
     <ignored path="site.iws" />
@@ -45,8 +42,8 @@
           <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/jade/pages/page/index.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.24780059">
-                  <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -59,17 +56,17 @@
           <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/sass/styles.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8389571">
-                  <caret line="155" column="17" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.09620253">
+                  <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
                   <folding>
-                    <element signature="e#688#42863#2" expanded="true" />
-                    <element signature="e#43501#45056#2" expanded="true" />
-                    <element signature="e#45954#47609#2" expanded="true" />
-                    <element signature="e#47708#49975#2" expanded="true" />
-                    <element signature="e#50012#52467#2" expanded="true" />
-                    <element signature="e#52505#54648#2" expanded="true" />
-                    <element signature="e#54681#56992#2" expanded="true" />
-                    <element signature="e#57033#59384#2" expanded="true" />
+                    <element signature="e#735#42910#2" expanded="true" />
+                    <element signature="e#43486#45041#2" expanded="true" />
+                    <element signature="e#45970#47625#2" expanded="true" />
+                    <element signature="e#47724#49991#2" expanded="true" />
+                    <element signature="e#50028#52483#2" expanded="true" />
+                    <element signature="e#52521#54664#2" expanded="true" />
+                    <element signature="e#54697#57008#2" expanded="true" />
+                    <element signature="e#57049#59400#2" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -78,8 +75,8 @@
           <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/sass/_helpers/_mixins.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.833333">
-                  <caret line="379" column="0" selection-start-line="379" selection-start-column="0" selection-end-line="379" selection-end-column="0" />
+                <state vertical-scroll-proportion="8.733334">
+                  <caret line="305" column="7" selection-start-line="305" selection-start-column="7" selection-end-line="305" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -98,8 +95,8 @@
           <file leaf-file-name="_spacing_n_sizing.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/sass/_helpers/_spacing_n_sizing.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.4">
-                  <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="15" />
+                <state vertical-scroll-proportion="-9.1">
+                  <caret line="13" column="1" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -134,8 +131,8 @@
         <option value="$PROJECT_DIR$/assets/css/styles.css" />
         <option value="$PROJECT_DIR$/assets/html/pages/page/index.html" />
         <option value="$PROJECT_DIR$/assets/sass/_helpers/_typography.scss" />
-        <option value="$PROJECT_DIR$/assets/jade/pages/page/index.jade" />
         <option value="$PROJECT_DIR$/assets/sass/styles.scss" />
+        <option value="$PROJECT_DIR$/assets/jade/pages/page/index.jade" />
       </list>
     </option>
   </component>
@@ -449,13 +446,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="1" width="1932" height="986" extended-state="0" />
+    <frame x="-8" y="1" width="1932" height="986" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15569489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16178195" sideWeight="0.54388714" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16178195" sideWeight="0.54388714" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16178195" sideWeight="0.45611286" order="2" side_tool="false" content_ui="tabs" />
@@ -754,34 +751,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/html/pages/page/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54810125">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/_helpers/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.053164557">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/_helpers/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.833333">
-          <caret line="379" column="0" selection-start-line="379" selection-start-column="0" selection-end-line="379" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/_helpers/_spacing_n_sizing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.4">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -794,28 +767,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/jade/pages/page/index.jade">
+    <entry file="file://$PROJECT_DIR$/assets/sass/_helpers/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24780059">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state vertical-scroll-proportion="8.733334">
+          <caret line="305" column="7" selection-start-line="305" selection-start-column="7" selection-end-line="305" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/html/pages/page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.326923">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/_helpers/_spacing_n_sizing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.1">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8389571">
-          <caret line="155" column="17" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.09620253">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding>
-            <element signature="e#688#42863#2" expanded="true" />
-            <element signature="e#43501#45056#2" expanded="true" />
-            <element signature="e#45954#47609#2" expanded="true" />
-            <element signature="e#47708#49975#2" expanded="true" />
-            <element signature="e#50012#52467#2" expanded="true" />
-            <element signature="e#52505#54648#2" expanded="true" />
-            <element signature="e#54681#56992#2" expanded="true" />
-            <element signature="e#57033#59384#2" expanded="true" />
+            <element signature="e#735#42910#2" expanded="true" />
+            <element signature="e#43486#45041#2" expanded="true" />
+            <element signature="e#45970#47625#2" expanded="true" />
+            <element signature="e#47724#49991#2" expanded="true" />
+            <element signature="e#50028#52483#2" expanded="true" />
+            <element signature="e#52521#54664#2" expanded="true" />
+            <element signature="e#54697#57008#2" expanded="true" />
+            <element signature="e#57049#59400#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/jade/pages/page/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
