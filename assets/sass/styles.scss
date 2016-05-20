@@ -75,7 +75,7 @@
 //main-page opened-menu
 
 .opened-menu {
-  @include flex-parent($flex-direction: column );
+  @include flex-parent( $flex-direction: column );
   @include absolute( top 0 left 0);
 
   display: none;
