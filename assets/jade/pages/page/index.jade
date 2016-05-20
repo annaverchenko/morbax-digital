@@ -11,28 +11,51 @@ block page-title
 append stylesheets
     link(rel="stylesheet" href="../../../css/styles.css")
 
+script.
+    function show() {
+        var menu = document.getElementById('my');
+        my.style.display = 'block';
+    }
+
+    function hide() {
+        var menu = document.getElementById('my');
+        my.style.display = 'none';
+    }
+
+    function init() {
+        var menu = document.getElementById('my');
+        menu.onmouseover = show;
+        menu.onmouseout = hide;
+    }
+
+    init();
+
+
+
+
 block main-page
     .main-page
         .logo
         .intro проектирование, дизайн и разработка
             div сложных интернет проектов
         .btn-menu меню
-        .opened-menu
-            .close-menu закрыть
-            ul
-                li
-                    a.works работы
-                li
-                    a.about-us о нас
-                li
-                    a.processes процессы
-                li
-                    a.blog блог
-                li
-                    a.contact-info контакты
-            a.post-an-order оставить заявку
-            .social-cell
-                .social
-                    a.facebook
-                    a.google-plus
-                .cell +38(044)556 95 91
+            #my.opened-menu
+                .close-menu
+                    a закрыть
+                ul
+                    li
+                        a.works работы
+                    li
+                        a.about-us о нас
+                    li
+                        a.processes процессы
+                    li
+                        a.blog блог
+                    li
+                        a.contact-info контакты
+                a.post-an-order оставить заявку
+                .social-cell
+                    .social
+                        a.facebook
+                        a.google-plus
+                    .cell +38(044)556 95 91
