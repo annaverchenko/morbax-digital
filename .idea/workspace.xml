@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6801598d-674c-4b11-986c-817f3a3ad679" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/jade/_modules/_menu.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/.sass-cache/078a6a3385fd2fed8a413fa47cbc2c23cb3a1ac6/styles.scssc" afterPath="$PROJECT_DIR$/assets/sass/.sass-cache/078a6a3385fd2fed8a413fa47cbc2c23cb3a1ac6/styles.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/styles.css" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/html/pages/page/index.html" afterPath="$PROJECT_DIR$/assets/html/pages/page/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/jade/pages/page/index.jade" afterPath="$PROJECT_DIR$/assets/jade/pages/page/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/styles.scss" afterPath="$PROJECT_DIR$/assets/sass/styles.scss" />
-    </list>
+    <list default="true" id="6801598d-674c-4b11-986c-817f3a3ad679" name="Default" comment="" />
     <ignored path="site.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -495,7 +487,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="1" width="1932" height="986" extended-state="0" />
+    <frame x="-8" y="1" width="1932" height="986" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
