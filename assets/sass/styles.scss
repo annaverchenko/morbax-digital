@@ -27,10 +27,6 @@
   background-size: cover;
   position: relative;
   font-family: 'roboto-condensed', sans-serif;
-
-  a {
-    cursor: pointer;
-  }
 }
 
 .logo {
@@ -78,7 +74,7 @@
   @include flex-parent( $flex-direction: column );
   @include absolute( top 0 left 0);
 
-  display: none;
+  //display: none;
   width: 282px;
   height: 100%;
   background-color: #009795;
@@ -86,14 +82,13 @@
   text-transform: uppercase;
   font-size: $font-size-xmedium;
   font-weight: $font-weight-normal;
-}
 
-ul {
-  @include box-sizing();
 
-  padding: 0 $spacing-medium;
+  ul {
+    @include box-sizing();
 
-  li {
+    padding: 0 $spacing-medium;
+
     a {
       @include box-sizing();
 
