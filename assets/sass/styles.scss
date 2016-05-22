@@ -11,7 +11,7 @@
 // page partials
 
 
-// modules
+// _modules
 
 
 // themes
@@ -74,7 +74,7 @@
   @include flex-parent( $flex-direction: column );
   @include absolute( top 0 left 0);
 
-  //display: none;
+  display: none;
   width: 282px;
   height: 100%;
   background-color: #009795;
