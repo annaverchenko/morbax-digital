@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectTasksOptions" suppressed-tasks="Jade;SCSS;Compass SCSS">
+  <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
       <option name="arguments" value="$FileName$ --pretty --out $ProjectFileDir$\assets\html\$FileDirPathFromParent(jade)$" />
       <option name="checkSyntaxErrors" value="true" />

@@ -1,0 +1,8 @@
+//mixins
+
+mixin navmenu(menuItems)
+    nav
+        ul
+            each menuItem in menuItems
+                li
+                    a()&attributes({"href" : menuItem.href}): span= menuItem.title
