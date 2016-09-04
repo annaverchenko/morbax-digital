@@ -3,19 +3,90 @@
 extends ../../_layouts/_main-layout
 
 block page-title
-    | Our_works
+    | Our-works
 
 block main-page
-    .our_works
+    .our-works
         include ../../_modules/_header
 
         .title
-            .page-title Наши работы
+        .our-works-gallery
+            .our-works-gallery-company__opened
+                .our-works-gallery-company__logo
+                a.our-works-gallery-company__web-site(href="#")
+                    |business-passport.ru
+                .our-works-gallery-company__slogan
+                    |Веб-портал площадка для поиска сотрудников и работы
+                .our-works-gallery-company__web-site-miniature
+                    img(src="../../../images/company-web-site-miniature_612x1411.png")
+            .our-works-gallery-companies__slider
+                .our-works-gallery-companies-slider__title
+                    .other-works
+                        |другие работы:
+                    .back-to-catalog
+                        a(href="our_works_catalog.html") Вернуться к каталогу
+                .slider4
+                    .slide
+                        a(href="#")
+                            img(src="../../../images/pic-1.jpg")
+                        .info-wrapper
+                            a.company-link(href="#")
+                                |Treize
+                            .company-specialization
+                                |веб разработка
+                    .slide
+                        a(href="#")
+                            img(src="../../../images/pic-2.jpg")
+                        .info-wrapper
+                            a.company-link(href="#")
+                                | Texto
+                            .company-specialization
+                                | веб разработка
+                    .slide
+                        a(href="#")
+                            img(src="../../../images/pic-3.jpg")
+                        .info-wrapper
+                            a.company-link(href="#")
+                                | Zbaren
+                            .company-specialization
+                                | мобильное приложение
+                    .slide
+                        a(href="#")
+                            img(src="../../../images/pic-2.jpg")
+                        .info-wrapper
+                            a.company-link(href="#")
+                                | Texto
+                            .company-specialization
+                                | веб разработка
+                    .slide
+                        a(href="#")
+                            img(src="../../../images/pic-1.jpg")
+                        .info-wrapper
+                            a.company-link(href="#")
+                                | Treize
+                            .company-specialization
+                                | веб разработка
+                    .slide
+                        a(href="#")
+                            img(src="../../../images/pic-3.jpg")
+                        .info-wrapper
+                            a.company-link(href="#")
+                                | Zbaren
+                            .company-specialization
+                                | мобильное приложение
+            .application-block
+                .you-need-web-site
+                    | Вам нужен современный сайт?
+                .application-methods
+                    .call-us-cell
+                        .call-us
+                            | Звоните нам
+                        .contact-cell
+                            | +38 (097) 807 02 02
+                    .or
+                        | или
+                    .post-an-order
+                        a(href="#")
+                            | оставьте заявку
 
-            +navmenu([
-                {"title" : "Дизайн", "href" : "#"},
-                {"title" : "Айдентика", "href" : "#"},
-                {"title" : "Мобильные приложения", "href" : "#"},
-                {"title" : "Веб разработка", "href" : "#"}
-            ])
 

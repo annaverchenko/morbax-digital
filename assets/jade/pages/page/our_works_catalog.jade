@@ -1,0 +1,35 @@
+//- Document: our_works_catalog.jade
+
+extends ../../_layouts/_main-layout
+
+block page-title
+    | Our-works__catalog
+
+block main-page
+    .our-works
+        include ../../_modules/_header
+
+        .title
+            .page-title Наши работы
+
+            +navmenu([
+                {"title" : "Дизайн", "href" : "#"},
+                {"title" : "Айдентика", "href" : "#"},
+                {"title" : "Мобильные приложения", "href" : "#"},
+                {"title" : "Веб разработка", "href" : "#"}
+            ])
+
+        .catalog-of-our-works-list
+            .our-works-item
+                a(href="#")
+            .our-works-item
+                a(href="#")
+            .our-works-item
+                a(href="#")
+            .our-works-item
+                a(href="#")
+            .empty-item
+                a(href="#").download-more-of-our-works
+                    | Загрузить больше работ
+
+

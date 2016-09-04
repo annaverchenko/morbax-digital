@@ -21,7 +21,7 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="compile E:/WORK/site $UnixSeparators($FilePath$)$" />
+      <option name="arguments" value="compile E:/WORK/Career/Morbax-digital $UnixSeparators($FilePath$)$" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Compiles .scss files into .css files using compass" />
       <option name="exitCodeBehavior" value="ERROR" />

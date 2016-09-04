@@ -8,14 +8,8 @@
 @import "_helpers/typography";
 @import "_fonts/fonts";
 @import "_partials/navmenu";
+@import "_partials/media-queries";
 
-// page partials
-
-
-// _modules
-
-
-// themes
 
 //main-page
 .main-page {
@@ -194,13 +188,16 @@
 
 
 
-//Our_works
+//Our-works_catalog
 
-.our_works {
-  @include flex-parent($align-items: center, $flex-direction: column);
+.our-works {
+  @include flex-parent(
+          $align-items: center,
+          $flex-direction: column,
+          $flex-wrap: nowrap
+  );
 
-  max-width: 1600px;
-  height: 100vh; //temp
+  max-width: 1280px;
   margin: 0 auto;
   position: relative;
   font-family: 'roboto-condensed', sans-serif;
@@ -231,13 +228,216 @@
 
 .page-title {
   width: 400px;
-  line-height: 100px;
   padding-left: $spacing-xlarge;
   font-size: $font-size-xxmedium;
   font-weight: $font-weight-bold;
   text-transform: uppercase;
 }
 
+// catalog-of-our-works
+
+.catalog-of-our-works-list {
+  @include flex-parent(
+          $justify-content: flex-start,
+          $align-items: stretch,
+          $flex-wrap: wrap
+  );
+  @include box-sizing();
+  width: 100%;
+}
+
+.our-works-item {
+  width: 316px;
+  height: 316px;
+  margin-left: $spacing-xxsmall;
+  margin-top: $spacing-xxsmall;
+  overflow: hidden;
+
+  &:nth-child(4n+1) {
+    margin-left: 0;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/our-works-item-1-316x316.png") no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  &:hover a {
+    transition: all 300ms linear 300ms;
+    transform: scale(1.3);
+  }
+}
+
+.empty-item {
+  @include flex-parent($align-items: center, $justify-content: center);
+
+  width: 316px;
+  height: 316px;
+  margin-left: $spacing-xxsmall;
+  margin-top: $spacing-xxsmall;
+  background: url("../images/empty-item-316x316.png") no-repeat 50% 50%;
+
+  .download-more-of-our-works {
+
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #fefefe;
+    text-transform: uppercase;
+  }
+}
 
 
+//.our-works-gallery
 
+.our-works-gallery {
+  width: 880px;
+  margin: 0 auto;
+  background-color: #363636;
+}
+
+.our-works-gallery-company__opened {
+  @include flex-parent($align-items: center);
+  @include relative ( top -100px left 0px );
+
+  width: 612px;
+  margin: 0 auto;
+}
+
+.our-works-gallery-company__logo {
+  width: 100%;
+  height: 62px;
+  background: url('../images/company-main-logo_212x62.png') no-repeat 50% 50%;
+  margin: 0.5rem auto 0;
+}
+
+.our-works-gallery-company__web-site {
+  width:100%;
+  margin-top: $spacing-xxlarge;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-xmedium;
+  color: #fff;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.our-works-gallery-company__slogan {
+  width:100%;
+  margin: $spacing-xmedium auto 90px;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-small;
+  color: #fff;
+  text-align: center;
+}
+
+.our-works-gallery-company__web-site-miniature {
+  width:100%;
+}
+
+// .our-works-gallery-companies__slider
+
+.our-works-gallery-companies__slider {
+  width: 100%;
+}
+
+.our-works-gallery-companies-slider__title {
+  @include flex-parent($justify-content: space-between);
+
+  width: 100%;
+  color: #fefefe;
+  font-family: 'roboto-condensed', sans-serif;
+}
+
+.other-works {
+  margin: 0 0 20px 80px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.back-to-catalog {
+
+  a {
+    margin: 0 40px 25px 0;
+    padding-right: 25px;
+    text-decoration: underline;
+    font-size: $font-size-small;
+    font-weight: $font-weight-light;
+    color: #ccc;
+    background: url("../images/back-to-catalog-arrow_15x11.png") no-repeat 100% 50%;
+  }
+}
+
+.info-wrapper {
+  color: #fefefe;
+  text-align: center;
+  font-family: 'roboto-condensed', sans-serif;
+
+  .company-link {
+    margin: 15px 0 10px 0;
+    text-decoration: underline;
+    font-size: $font-size-xxxmedium;
+    font-weight: $font-weight-normal;
+  }
+
+  .company-specialization {
+    font-weight: $font-weight-light;
+    opacity: 0.7;
+  }
+}
+
+.application-block {
+  width:100%;
+  padding-bottom: 45px;
+}
+
+.you-need-web-site {
+  padding-left: 80px;
+  color: #fff;
+  font-family: 'roboto-condensed', sans-serif;
+  font-weight: bold;
+  font-size: $font-size-xxxmedium;
+}
+
+.application-methods {
+  @include flex-parent($align-items: center);
+  margin-top: 30px;
+
+  .post-an-order {
+    margin-left: 70px;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-top: 0;
+    color: #fefefe;
+    text-transform: uppercase;
+  }
+}
+
+.call-us-cell {
+  padding-left: 80px;
+}
+
+.call-us {
+  font-family: 'roboto-condensed', sans-serif;
+  font-size: $font-size-medium;
+  font-weight: $font-weight-normal;
+  color: #fefefe;
+
+}
+
+.contact-cell {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fd662b;
+}
+
+.or {
+  padding-left: 90px;
+  font-size: $font-size-xmedium;
+  font-weight: bold;
+  color: #fefefe;
+  align-self: center;
+}

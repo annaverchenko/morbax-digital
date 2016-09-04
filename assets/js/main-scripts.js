@@ -4,24 +4,14 @@ Main JS functionality
 ===========================
 ***/
 
-//$(document).ready(function() {
-//
-//});
+$(document).ready(function(){
+    $('.slider4').bxSlider({
+        slideWidth: 290,
+        minSlides: 3,
+        maxSlides: 3,
+        moveSlides: 1,
+        slideMargin: 1.5
+    });
+});
 
-function show() {
-    var menu = document.getElementById('my');
-    my.style.display = 'block';
-}
 
-function hide() {
-    var menu = document.getElementById('my');
-    my.style.display = 'none';
-}
-
-function init() {
-    var menu = document.getElementById('my');
-    menu.onmouseover = show;
-    menu.onmouseout = hide;
-}
-
-init();
