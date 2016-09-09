@@ -188,7 +188,7 @@
 
 
 
-//Our-works_catalog
+//Our_works_catalog
 
 .our-works {
   @include flex-parent(
@@ -441,3 +441,44 @@
   color: #fefefe;
   align-self: center;
 }
+
+
+
+
+// Brief
+
+.brief {
+  font-family: 'roboto-condensed', sans-serif;
+  .title {
+      .page-title {
+        width: 500px;
+        font-family: 'roboto-condensed', sans-serif;
+        font-weight: bold;
+        font-size: $font-size-xxmedium;
+        color: #fefefe;
+      }
+  }
+}
+
+.our-brief-form {
+  @include box-sizing();
+
+  padding: 50px 80px;
+  background-color: #e5d6d5;
+}
+
+fieldset {
+  border: none;
+
+  legend {
+    border-top: 2px solid red;
+  }
+}
+
+.row {
+  @include box-sizing();
+
+  padding: 10px;
+  background-color: #81e5b5;
+}
+

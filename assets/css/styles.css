@@ -839,3 +839,49 @@ span:hover {
   color: #fefefe;
   align-self: center;
 }
+
+/* line 450, ../sass/styles.scss */
+.brief {
+  font-family: 'roboto-condensed', sans-serif;
+}
+/* line 453, ../sass/styles.scss */
+.brief .title .page-title {
+  width: 500px;
+  font-family: 'roboto-condensed', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #fefefe;
+}
+
+/* line 463, ../sass/styles.scss */
+.our-brief-form {
+  -webkit-box-sizing: border-box;
+  -khtml-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 50px 80px;
+  background-color: #e5d6d5;
+}
+
+/* line 470, ../sass/styles.scss */
+fieldset {
+  border: none;
+}
+/* line 473, ../sass/styles.scss */
+fieldset legend {
+  border-top: 2px solid red;
+}
+
+/* line 478, ../sass/styles.scss */
+.row {
+  -webkit-box-sizing: border-box;
+  -khtml-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #81e5b5;
+}

@@ -1,0 +1,98 @@
+extends ../../_layouts/_main-layout
+
+block page-title
+    | Brief
+
+block main-page
+    .brief
+        include ../../_modules/_header
+
+        .title
+            .page-title бриф на разработку интернет проекта
+
+        .our-brief-form
+            .form
+                form(name="contact" method="post")
+                    fieldset
+                        .row
+                            label Здравствуйте! Как Вас зовут?
+                                span(class="req") *
+                            input(type="text" name="name" placeholder="Ваше имя" required)
+                        .row
+                            label Email
+                                span(class="req") *
+                            input(type="email" name="email" placeholder=" address@mail.ru" required)
+                        .row
+                            label Телефон
+                            input(type="text" name="name" placeholder="Ваше имя" required)
+                    fieldset
+                        legend Общие сведения о клиенте
+                            .row
+                                label Название организации
+                                input(type="text" name="organization-name" placeholder="Ваше имя" required)
+                            .row
+                                label Сфера деятельности
+                                input(type="text" name="sphere-of-activity" placeholder="Ваше имя" required)
+                            .row
+                                label Позиционирование на рынке, миссия компании
+                                input(type="text" name="company-mission" placeholder="Ваше имя" required)
+                            .row
+                                label Основные конкуренты
+                                input(type="text" name="main-competitors" placeholder="Ваше имя" required)
+                    fieldset
+                        legend Деятельность заказчика
+                            .row
+                                label Продукция, услуги
+                                input(type="text" name="products-services" placeholder="Продукция, услуги")
+                            .row
+                                label Целевая аудитория
+                                textarea(name="target-audience" placeholder="Целевая аудитория")
+                    fieldset
+                        legend Портрет интернет-проекта
+                            .row
+                                label Портрет интернет-проекта
+                                input(type="text" name="internet-project-portrait" placeholder="Портрет интернет-проекта")
+                            .row
+                                label Доменное имя для сайта
+                                input(type="text" name="web-site-domain-name" placeholder="Доменное имя")
+                            .row
+                                label Название сайта
+                                input(type="text" name="web-site-name" placeholder="Название сайта")
+                            .row
+                                label Цели проекта, пронумеровать в порядке приоритетности
+                                .checkbox-wrap
+                                    div
+                                        input(type="checkbox", name="option-1")
+                                        | Привлечение клиентов
+                                    div
+                                        input(type="checkbox", name="option-2")
+                                        | Привлечение партнеров
+                                    div
+                                        input(type="checkbox", name="option-3")
+                                        | Выход на новые рынки
+                                    div
+                                        input(type="checkbox", name="option-4")
+                                        | Имиджевая цель
+                                    div
+                                        input(type="checkbox", name="option-5")
+                                        | Улучшение коммуникаций (информационная поддержка)
+                                    div
+                                        input(type="checkbox", name="option-6")
+                                        | Ознакомление потенциальных клиентов с продукцией
+                                    div
+                                        input(type="checkbox", name="option-7")
+                                        | Сбор маркетинговой информации, проведение опросов
+                                    div
+                                        input(type="checkbox", name="option-8")
+                                        | Обратная связь с потребителями
+                                    div
+                                        input(type="checkbox", name="option-9")
+                                        | Создание источника актуальной информации для клиентов
+                                    div
+                                        input(type="checkbox", name="option-10")
+                                        | Другое
+                                        input(type="text" name="else" placeholder="Введите текст")
+
+
+
+            .aside
