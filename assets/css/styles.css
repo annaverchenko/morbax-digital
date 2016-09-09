@@ -839,12 +839,12 @@ fieldset {
 fieldset legend {
   position: relative;
 }
-/* line 29, ../sass/_partials/_brief.scss */
+/* line 30, ../sass/_partials/_brief.scss */
 fieldset legend:after {
   display: block;
   content: '';
 }
-/* line 35, ../sass/_partials/_brief.scss */
+/* line 36, ../sass/_partials/_brief.scss */
 fieldset label {
   font-family: 'roboto-condensed', sans-serif;
   font-size: 1rem;
@@ -852,7 +852,7 @@ fieldset label {
   color: #333;
 }
 
-/* line 43, ../sass/_partials/_brief.scss */
+/* line 44, ../sass/_partials/_brief.scss */
 .row {
   -webkit-box-sizing: border-box;
   -khtml-box-sizing: border-box;
@@ -863,7 +863,7 @@ fieldset label {
   padding: 10px;
   background-color: #81e5b5;
 }
-/* line 49, ../sass/_partials/_brief.scss */
+/* line 50, ../sass/_partials/_brief.scss */
 .row span {
   color: #f26630;
   font-size: 1rem;
