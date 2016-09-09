@@ -12,87 +12,336 @@ block main-page
 
         .our-brief-form
             .form
-                form(name="contact" method="post")
+                form(id="myform" name="contact" method="post")
                     fieldset
                         .row
+                            span *
                             label Здравствуйте! Как Вас зовут?
-                                span(class="req") *
-                            input(type="text" name="name" placeholder="Ваше имя" required)
+                            div
+                                input(class="styler" type="text" name="name" placeholder="Ваше имя" required)
                         .row
+                            span *
                             label Email
-                                span(class="req") *
-                            input(type="email" name="email" placeholder=" address@mail.ru" required)
+                            div
+                                input(class="styler" type="email" name="email" placeholder=" address@mail.ru" required)
                         .row
                             label Телефон
-                            input(type="text" name="name" placeholder="Ваше имя" required)
+                            div
+                                input(class="styler" type="text" name="name" placeholder="Ваше имя" required)
                     fieldset
                         legend Общие сведения о клиенте
                             .row
                                 label Название организации
-                                input(type="text" name="organization-name" placeholder="Ваше имя" required)
+                                div
+                                    input(class="styler" type="text" name="organization-name" placeholder="Ваше имя" required)
                             .row
                                 label Сфера деятельности
-                                input(type="text" name="sphere-of-activity" placeholder="Ваше имя" required)
+                                div
+                                    input(class="styler" type="text" name="sphere-of-activity" placeholder="Ваше имя" required)
                             .row
                                 label Позиционирование на рынке, миссия компании
-                                input(type="text" name="company-mission" placeholder="Ваше имя" required)
+                                div
+                                    input(class="styler" type="text" name="company-mission" placeholder="Ваше имя" required)
                             .row
                                 label Основные конкуренты
-                                input(type="text" name="main-competitors" placeholder="Ваше имя" required)
+                                div
+                                    input(class="styler" type="text" name="main-competitors" placeholder="Ваше имя" required)
                     fieldset
                         legend Деятельность заказчика
                             .row
                                 label Продукция, услуги
-                                input(type="text" name="products-services" placeholder="Продукция, услуги")
+                                div
+                                    input(class="styler" type="text" name="products-services" placeholder="Продукция, услуги")
                             .row
                                 label Целевая аудитория
-                                textarea(name="target-audience" placeholder="Целевая аудитория")
+                                div
+                                    textarea(class="styler" name="target-audience" placeholder="Целевая аудитория")
                     fieldset
                         legend Портрет интернет-проекта
                             .row
                                 label Портрет интернет-проекта
-                                input(type="text" name="internet-project-portrait" placeholder="Портрет интернет-проекта")
+                                div
+                                    input(class="styler" type="text" name="internet-project-portrait" placeholder="Портрет интернет-проекта")
                             .row
                                 label Доменное имя для сайта
-                                input(type="text" name="web-site-domain-name" placeholder="Доменное имя")
+                                div
+                                    input(class="styler" type="text" name="web-site-domain-name" placeholder="Доменное имя")
                             .row
                                 label Название сайта
-                                input(type="text" name="web-site-name" placeholder="Название сайта")
+                                div
+                                    input(class="styler" type="text" name="web-site-name" placeholder="Название сайта")
                             .row
                                 label Цели проекта, пронумеровать в порядке приоритетности
-                                .checkbox-wrap
-                                    div
-                                        input(type="checkbox", name="option-1")
-                                        | Привлечение клиентов
-                                    div
-                                        input(type="checkbox", name="option-2")
-                                        | Привлечение партнеров
-                                    div
-                                        input(type="checkbox", name="option-3")
-                                        | Выход на новые рынки
-                                    div
-                                        input(type="checkbox", name="option-4")
-                                        | Имиджевая цель
-                                    div
-                                        input(type="checkbox", name="option-5")
-                                        | Улучшение коммуникаций (информационная поддержка)
-                                    div
-                                        input(type="checkbox", name="option-6")
-                                        | Ознакомление потенциальных клиентов с продукцией
-                                    div
-                                        input(type="checkbox", name="option-7")
-                                        | Сбор маркетинговой информации, проведение опросов
-                                    div
-                                        input(type="checkbox", name="option-8")
-                                        | Обратная связь с потребителями
-                                    div
-                                        input(type="checkbox", name="option-9")
-                                        | Создание источника актуальной информации для клиентов
-                                    div
-                                        input(type="checkbox", name="option-10")
-                                        | Другое
-                                        input(type="text" name="else" placeholder="Введите текст")
+                                div
+                                    input(class="styler" type="checkbox", name="option-1")
+                                    | Привлечение клиентов
+                                div
+                                    input(class="styler" type="checkbox", name="option-2")
+                                    | Привлечение партнеров
+                                div
+                                    input(class="styler" type="checkbox", name="option-3")
+                                    | Выход на новые рынки
+                                div
+                                    input(class="styler" type="checkbox", name="option-4")
+                                    | Имиджевая цель
+                                div
+                                    input(class="styler" type="checkbox", name="option-5")
+                                    | Улучшение коммуникаций (информационная поддержка)
+                                div
+                                    input(class="styler" type="checkbox", name="option-6", checked)
+                                    | Ознакомление потенциальных клиентов с продукцией
+                                div
+                                    input(class="styler" type="checkbox", name="option-7")
+                                    | Сбор маркетинговой информации, проведение опросов
+                                div
+                                    input(class="styler" type="checkbox", name="option-8")
+                                    | Обратная связь с потребителями
+                                div
+                                    input(class="styler" type="checkbox", name="option-9")
+                                    | Создание источника актуальной информации для клиентов
+                                div
+                                    input(class="styler" type="checkbox", name="option-10")
+                                    | Другое
+                                    input(class="styler" type="text" name="else" placeholder="Введите текст")
 
+                            .row
+                                label Тип сайта
+                                div
+                                    input(class="styler" type="radio")
+                                    | Корпоративный. (Информационный сайт представляющий организацию,
+                                    | продукцию и услуги)
+                                div
+                                    input(class="styler" type="radio")
+                                    | Имиджевый. (Промо, рекламно-информационный сайт представляющий
+                                    | организацию, продукт и услугу)
+                                div
+                                    input(class="styler" type="radio")
+                                    | Интернет-магазин. (Возможность ознакомиться с ассортиментом продукции
+                                    | и приобрести товар в сети)
+                                div
+                                    input(class="styler" type="radio" checked)
+                                    | Сайт-визитка. (Представительство в сети, с базовой информацией о бизнесе)
+                            .row
+                                label Комментарий
+                                div
+                                    textarea(class="styler" name="comment-1")
+                            .row
+                                label
+                                | Сайт является частью новой концепции продвижения организации (брэнда, товаров/услуг)
+                                | или создается в рамках уже существующей стратегии продвижения?
+                                div
+                                    textarea(class="styler" name="comment-2")
+                            .row
+                                label
+                                | Слоганы рекламных компаний организации (брэнда, товаров/услуг),если
+                                | их необходимо использовать
+                                div
+                                    textarea(class="styler" name="comment-3")
+                            .row
+                                label
+                                | Общее впечатление о компании, продукции/услугах которое должносоздаваться у целевой
+                                | аудитории от посещения сайта? (возможные ассоциативные связи – надежно,
+                                | удобно, профессионально, выгодно и т.д.)
+                                div
+                                    textarea(class="styler" name="comment-4")
+                            .row
+                                label
+                                | Планируется ли сопровождать начало работы сайта рекламной кампанией в интернет?
+                                div
+                                    textarea(class="styler" name="comment-5")
+                            .row
+                                label
+                                | Что является наиболее приоритетным в разработке сайта для вас
+                                div
+                                    textarea(class="styler" name="comment-6")
+                    fieldset
+                        legend Дизайн
+                            .row
+                                label Дизайн
+                                div
+                                    input(class="styler" type="checkbox", name="option-1")
+                                    | Существующего фирменного стиля организации
+                                div
+                                    input(class="styler" type="checkbox", name="option-2")
+                                    | Стиля основной торговой марки (бренда)
+                                div
+                                    input(class="styler" type="checkbox", name="option-3")
+                                    | Определяющим является воздействие на целевую аудиторию
+                                div
+                                    input(class="styler" type="checkbox", name="option-4")
+                                    | Комментарий
+                                div
+                                    input(class="styler" type="text" name="comment")
+                            .row
+                                label Фирменный стиль компании
+                                div
+                                    input(class="styler" type="checkbox", name="colors")
+                                    | Цвета
+                                div
+                                    input(class="styler" type="checkbox", name="logo")
+                                    | Логотип
+                                div
+                                    input(class="styler" type="checkbox", name="brends")
+                                    | Торговые марки (знаки)
+                                div
+                                    input(class="styler" type="checkbox", name="fonts")
+                                    | Шрифты
+                                div
+                                    input(class="styler" type="checkbox", name="more")
+                                    | Дополнительно
+                            .row
+                                label Стилистика, подача информации
+                                div
+                                    input(class="styler" type="checkbox", name="option-1")
+                                    | Обязательно серьезный, деловой стиль сайта и подачи информации
+                                div
+                                    input(class="styler" type="checkbox", name="option-2")
+                                    | Возможно использование эффектной (например, с юмором) подачи информации
+                                div
+                                    input(class="styler" type="checkbox", name="option-3")
+                                    | Возможен частично развлекательный вариант для некоторых разделов
+                                div
+                                    input(class="styler" type="checkbox", name="option-4")
+                                    | Комментарий
+                                div
+                                    input(class="styler" type="text" name="comment")
+                            .row
+                                label Предпочтения
+                                div
+                                    input(class="styler" type="checkbox", name="option-1")
+                                    | Уделить внимание формированию положительного имиджа
+                                div
+                                    input(class="styler" type="checkbox", name="option-2")
+                                    | Предоставлению большого количества информации
+                                div
+                                    input(class="styler" type="checkbox", name="option-3")
+                                    | Функциональности и сервисам сайта для посетителей
+                                div
+                                    input(class="styler" type="checkbox", name="option-4")
+                                    | Комментарий
+                                div
+                                    input(class="styler" type="text" name="comment")
+                            .row
+                                label Цветовое решение
+                                div
+                                    input(class="styler" type="checkbox", name="option-1")
+                                    | Приглушенные, спокойные тона
+                                div
+                                    input(class="styler" type="checkbox", name="option-2")
+                                    | Эффектные броские, яркие краски
+                                div
+                                    input(class="styler" type="checkbox", name="option-4")
+                                    | Комментарий
+                                div
+                                    input(class="styler" type="text" name="comment")
+                            .row
+                                label
+                                | Сайты, которые нравятся заказчику
+                                div
+                                    textarea(class="styler" name="comment-7")
+                            .row
+                                label
+                                | Сайты которые не нравятся
+                                div
+                                    textarea(class="styler" name="comment-8")
+                            .row
+                                label Предполагаемый объем информации на сайте, примерно страниц
+                                div
+                                    input(class="styler" type="radio")
+                                    | Небольшой (от 5 до 15)
+                                div
+                                    input(class="styler" type="radio")
+                                    | Средний (от 15 до 40)
+                                div
+                                    input(class="styler" type="radio")
+                                    | Большой (от 40 и более)
+                            .row
+                                label
+                                | Комментарий
+                                div
+                                    textarea(class="styler" name="comment-9")
+                    fieldset
+                        legend Функциональность сайта
+                            .row
+                                label Каков, по вашему мнению, необходимый функционал
+                                div
+                                    input(class="styler" type="radio")
+                                    | Публикация новостей
+                                div
+                                    input(class="styler" type="radio")
+                                    | Публикация тематических статей
+                                div
+                                    input(class="styler" type="radio")
+                                    | Подписка/рассылка новостей
+                                div
+                                    input(class="styler" type="radio")
+                                    | Каталога товаров/услуг
+                                div
+                                    input(class="styler" type="radio")
+                                    | Выбор товаров из каталога (корзина)
+                                div
+                                    input(class="styler" type="radio")
+                                    | Онлайн оплата (интернет-магазин)
+                                div
+                                    input(class="styler" type="radio")
+                                    | Поиск по сайту/каталогу
+                                div
+                                    input(class="styler" type="radio")
+                                    | Публиковать объявления о вакансиях
+                                div
+                                    input(class="styler" type="radio")
+                                    | Организация голосований и опросов
+                            .row
+                                label Дополнительно:
+                                div
+                                    input(class="styler" type="radio")
+                                    | Размещение файлов для скачивания
+                                div
+                                    input(class="styler" type="radio")
+                                    | Рубрика вопрос-ответ
+                                div
+                                    input(class="styler" type="radio")
+                                    | Организация доски объявлений
+                                div
+                                    input(class="styler" type="radio")
+                                    | Ведение форума
+                                div
+                                    input(class="styler" type="radio")
+                                    | Баннеры, внимание на товары и услуги
+                                div
+                                    input(class="styler" type="radio")
+                                    | Регистрация посетителей для допуска к закрытым разделам сайта
+                                div
+                                    input(class="styler" type="radio")
+                                    | Форма заказа/заявки на товары/услуги
+                            .row
+                                label
+                                | Комментарий
+                                div
+                                    textarea(class="styler" name="comment-10")
+                            .row
+                                label
+                                | Какие основные разделы будут размещены на сайте?
+                                div
+                                    textarea(class="styler" name="comment-11")
+                            .row
+                                label
+                                | Планируемая регулярность обновления сайта
+                                div
+                                    textarea(class="styler" name="comment-12")
+                            .row
+                                label
+                                | Дополнения, замечания, пожелания, требования к сайту
+                                div
+                                    textarea(class="styler" name="comment-13")
+                            p
+                                span *
+                                |  - поля обязательные для заполнения
 
+                    .center
+                        input(class="styler" type="submit" value="Отправить")
+                    fieldset
+                        legend Остались вопросы?
+                include ../../_modules/_contact-form
 
-            .aside
+            include ../../_modules/_brief-aside

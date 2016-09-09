@@ -1,0 +1,52 @@
+.application-block {
+  width:100%;
+  padding-bottom: 45px;
+}
+
+.you-need-web-site {
+  padding-left: 80px;
+  color: #fff;
+  font-family: 'roboto-condensed', sans-serif;
+  font-weight: bold;
+  font-size: $font-size-xxxmedium;
+}
+
+.application-methods {
+  @include flex-parent($align-items: center);
+  margin-top: 30px;
+
+  .post-an-order {
+    margin-left: 70px;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-top: 0;
+    color: #fefefe;
+    text-transform: uppercase;
+  }
+}
+
+.call-us-cell {
+  padding-left: 80px;
+}
+
+.call-us {
+  font-family: 'roboto-condensed', sans-serif;
+  font-size: $font-size-medium;
+  font-weight: $font-weight-normal;
+  color: #fefefe;
+
+}
+
+.contact-cell {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fd662b;
+}
+
+.or {
+  padding-left: 90px;
+  font-size: $font-size-xmedium;
+  font-weight: bold;
+  color: #fefefe;
+  align-self: center;
+}

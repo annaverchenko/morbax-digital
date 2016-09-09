@@ -1,0 +1,52 @@
+
+// .our-works-gallery-companies__slider
+
+.our-works-gallery-companies__slider {
+  width: 100%;
+}
+
+.our-works-gallery-companies-slider__title {
+  @include flex-parent($justify-content: space-between);
+
+  width: 100%;
+  color: #fefefe;
+  font-family: 'roboto-condensed', sans-serif;
+}
+
+.other-works {
+  margin: 0 0 20px 80px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.back-to-catalog {
+
+  a {
+    margin: 0 40px 25px 0;
+    padding-right: 25px;
+    text-decoration: underline;
+    font-size: $font-size-small;
+    font-weight: $font-weight-light;
+    color: #ccc;
+    background: url("../images/back-to-catalog-arrow_15x11.png") no-repeat 100% 50%;
+  }
+}
+
+.info-wrapper {
+  color: #fefefe;
+  text-align: center;
+  font-family: 'roboto-condensed', sans-serif;
+
+  .company-link {
+    margin: 15px 0 10px 0;
+    text-decoration: underline;
+    font-size: $font-size-xxxmedium;
+    font-weight: $font-weight-normal;
+  }
+
+  .company-specialization {
+    font-weight: $font-weight-light;
+    opacity: 0.7;
+  }
+}

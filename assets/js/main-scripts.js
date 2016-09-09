@@ -4,6 +4,10 @@ Main JS functionality
 ===========================
 ***/
 
+jQuery(document).ready(function() {
+    jQuery('#myform select, input').styler();
+});
+
 $(document).ready(function(){
     $('.slider4').bxSlider({
         slideWidth: 290,
@@ -14,4 +18,10 @@ $(document).ready(function(){
     });
 });
 
-
+//(function($) {
+//    $(function() {
+//
+//        $('input, select').styler();
+//
+//    });
+//})(jQuery);

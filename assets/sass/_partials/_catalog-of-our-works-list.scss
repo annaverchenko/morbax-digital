@@ -1,0 +1,55 @@
+// catalog-of-our-works-list
+
+.catalog-of-our-works-list {
+  @include flex-parent(
+          $justify-content: flex-start,
+          $align-items: stretch,
+          $flex-wrap: wrap
+  );
+  @include box-sizing();
+  width: 100%;
+}
+
+.our-works-item {
+  width: 316px;
+  height: 316px;
+  margin-left: $spacing-xxsmall;
+  margin-top: $spacing-xxsmall;
+  overflow: hidden;
+
+  &:nth-child(4n+1) {
+    margin-left: 0;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/our-works-item-1-316x316.png") no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  &:hover a {
+    transition: all 300ms linear 300ms;
+    transform: scale(1.3);
+  }
+}
+
+.empty-item {
+  @include flex-parent($align-items: center, $justify-content: center);
+
+  width: 316px;
+  height: 316px;
+  margin-left: $spacing-xxsmall;
+  margin-top: $spacing-xxsmall;
+  background: url("../images/empty-item-316x316.png") no-repeat 50% 50%;
+
+  .download-more-of-our-works {
+
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #fefefe;
+    text-transform: uppercase;
+  }
+}

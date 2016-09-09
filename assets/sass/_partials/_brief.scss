@@ -1,0 +1,54 @@
+.brief {
+  font-family: 'roboto-condensed', sans-serif;
+  .title {
+    .page-title {
+      width: 500px;
+      font-family: 'roboto-condensed', sans-serif;
+      font-weight: bold;
+      font-size: $font-size-xxmedium;
+      color: #fefefe;
+    }
+  }
+}
+
+.our-brief-form {
+  @include flex-parent($flex-wrap: nowrap);
+  @include box-sizing();
+
+  padding: 50px 80px;
+  background-color: #fff;
+}
+
+fieldset {
+  border: none;
+
+  legend {
+    position: relative;
+    //border-top: 2px solid red;
+
+    &:after {
+      display: block;
+      content: '';
+    }
+  }
+
+  label {
+    font-family: 'roboto-condensed', sans-serif;
+    font-size: $font-size-medium;
+    font-weight: $font-weight-normal;
+    color: #333;
+  }
+}
+
+.row {
+  @include box-sizing();
+
+  padding: 10px;
+  background-color: #81e5b5;
+
+  span {
+    color: #f26630;
+    font-size: $font-size-medium;
+
+  }
+}
