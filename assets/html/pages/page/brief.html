@@ -56,22 +56,22 @@
         <div class="form">
           <form id="myform" name="contact" method="post">
             <fieldset>
-              <div class="row"><span>*</span>
-                <label>Здравствуйте! Как Вас зовут?</label>
+              <div class="row">
+                <label></label><span>*</span> Здравствуйте! Как Вас зовут?
                 <div>
-                  <input type="text" name="name" placeholder="Ваше имя" required class="styler">
+                  <input type="text" name="name" required class="styler">
                 </div>
               </div>
-              <div class="row"><span>*</span>
-                <label>Email</label>
+              <div class="row">
+                <label></label><span>*</span> Email
                 <div>
-                  <input type="email" name="email" placeholder=" address@mail.ru" required class="styler">
+                  <input type="email" name="email" required class="styler">
                 </div>
               </div>
               <div class="row">
                 <label>Телефон</label>
                 <div>
-                  <input type="text" name="name" placeholder="Ваше имя" required class="styler">
+                  <input type="text" name="name" required class="styler">
                 </div>
               </div>
             </fieldset>
@@ -80,25 +80,25 @@
               <div class="row">
                 <label>Название организации</label>
                 <div>
-                  <input type="text" name="organization-name" placeholder="Ваше имя" required class="styler">
+                  <input type="text" name="organization-name" required class="styler">
                 </div>
               </div>
               <div class="row">
                 <label>Сфера деятельности</label>
                 <div>
-                  <input type="text" name="sphere-of-activity" placeholder="Ваше имя" required class="styler">
+                  <input type="text" name="sphere-of-activity" class="styler">
                 </div>
               </div>
               <div class="row">
                 <label>Позиционирование на рынке, миссия компании</label>
                 <div>
-                  <input type="text" name="company-mission" placeholder="Ваше имя" required class="styler">
+                  <input type="text" name="company-mission" class="styler">
                 </div>
               </div>
               <div class="row">
                 <label>Основные конкуренты</label>
                 <div>
-                  <input type="text" name="main-competitors" placeholder="Ваше имя" required class="styler">
+                  <input type="text" name="main-competitors" class="styler">
                 </div>
               </div>
             </fieldset>
@@ -107,13 +107,13 @@
               <div class="row">
                 <label>Продукция, услуги</label>
                 <div>
-                  <input type="text" name="products-services" placeholder="Продукция, услуги" class="styler">
+                  <input type="text" name="products-services" class="styler">
                 </div>
               </div>
               <div class="row">
                 <label>Целевая аудитория</label>
                 <div>
-                  <textarea name="target-audience" placeholder="Целевая аудитория" class="styler"></textarea>
+                  <textarea name="target-audience" class="styler"></textarea>
                 </div>
               </div>
             </fieldset>
@@ -122,23 +122,23 @@
               <div class="row">
                 <label>Портрет интернет-проекта</label>
                 <div>
-                  <input type="text" name="internet-project-portrait" placeholder="Портрет интернет-проекта" class="styler">
+                  <input type="text" name="internet-project-portrait" class="styler">
                 </div>
               </div>
               <div class="row">
                 <label>Доменное имя для сайта</label>
                 <div>
-                  <input type="text" name="web-site-domain-name" placeholder="Доменное имя" class="styler">
+                  <input type="text" name="web-site-domain-name" class="styler">
                 </div>
               </div>
               <div class="row">
                 <label>Название сайта</label>
                 <div>
-                  <input type="text" name="web-site-name" placeholder="Название сайта" class="styler">
+                  <input type="text" name="web-site-name" class="styler">
                 </div>
               </div>
-              <div class="row">
-                <label>Цели проекта, пронумеровать в порядке приоритетности</label>
+              <div class="row project-goals">
+                <label>Цели проекта (пронумеровать в порядке приоритетности)</label>
                 <div>
                   <input type="checkbox" name="option-1" class="styler">Привлечение клиентов
                 </div>
@@ -168,7 +168,7 @@
                 </div>
                 <div>
                   <input type="checkbox" name="option-10" class="styler">Другое
-                  <input type="text" name="else" placeholder="Введите текст" class="styler">
+                  <input type="text" name="else" class="styler">
                 </div>
               </div>
               <div class="row">
@@ -232,7 +232,7 @@
             </fieldset>
             <fieldset>
               <legend>Дизайн</legend>
-              <div class="row">
+              <div class="row design">
                 <label>Дизайн</label>
                 <div>
                   <input type="checkbox" name="option-1" class="styler">Существующего фирменного стиля организации
@@ -250,7 +250,7 @@
                   <input type="text" name="comment" class="styler">
                 </div>
               </div>
-              <div class="row">
+              <div class="row company-style">
                 <label>Фирменный стиль компании</label>
                 <div>
                   <input type="checkbox" name="colors" class="styler">Цвета
@@ -268,13 +268,13 @@
                   <input type="checkbox" name="more" class="styler">Дополнительно
                 </div>
               </div>
-              <div class="row">
+              <div class="row info-style">
                 <label>Стилистика, подача информации</label>
                 <div>
                   <input type="checkbox" name="option-1" class="styler">Обязательно серьезный, деловой стиль сайта и подачи информации
                 </div>
                 <div>
-                  <input type="checkbox" name="option-2" class="styler">Возможно использование эффектной (например, с юмором) подачи информации
+                  <input type="checkbox" name="option-2" class="styler">Возможно использование эффектной подачи информации
                 </div>
                 <div>
                   <input type="checkbox" name="option-3" class="styler">Возможен частично развлекательный вариант для некоторых разделов
@@ -286,7 +286,7 @@
                   <input type="text" name="comment" class="styler">
                 </div>
               </div>
-              <div class="row">
+              <div class="row preferance">
                 <label>Предпочтения</label>
                 <div>
                   <input type="checkbox" name="option-1" class="styler">Уделить внимание формированию положительного имиджа
@@ -304,7 +304,7 @@
                   <input type="text" name="comment" class="styler">
                 </div>
               </div>
-              <div class="row">
+              <div class="row color-scheme">
                 <label>Цветовое решение</label>
                 <div>
                   <input type="checkbox" name="option-1" class="styler">Приглушенные, спокойные тона
@@ -331,7 +331,7 @@
                   <textarea name="comment-8" class="styler"></textarea>
                 </div>
               </div>
-              <div class="row">
+              <div class="row pages-quantity">
                 <label>Предполагаемый объем информации на сайте, примерно страниц</label>
                 <div>
                   <input type="radio" class="styler">Небольшой (от 5 до 15)
@@ -352,7 +352,7 @@
             </fieldset>
             <fieldset>
               <legend>Функциональность сайта</legend>
-              <div class="row">
+              <div class="row functions-needed">
                 <label>Каков, по вашему мнению, необходимый функционал</label>
                 <div>
                   <input type="radio" class="styler">Публикация новостей
@@ -382,7 +382,7 @@
                   <input type="radio" class="styler">Организация голосований и опросов
                 </div>
               </div>
-              <div class="row">
+              <div class="row more">
                 <label>Дополнительно:</label>
                 <div>
                   <input type="radio" class="styler">Размещение файлов для скачивания
@@ -430,7 +430,7 @@
                   <textarea name="comment-13" class="styler"></textarea>
                 </div>
               </div>
-              <p><span>*</span> - поля обязательные для заполнения</p>
+              <div class="note"><span>*</span> - поля обязательные для заполнения</div>
             </fieldset>
             <fieldset class="center">
               <input type="submit" value="Отправить" class="styler">
@@ -466,16 +466,18 @@
         </div>
         <div class="aside">
           <div class="aside-header">Заполнив бриф вы получите</div>
-          <div>Звонок менеджера</div>
-          <div>Оценку стоимости проекта</div>
-          <div>
-            Встречу с менеджером проекта,
-            если необходимо
-          </div>
-          <div>
-            Полученная информация
-            конфиденциальна и не подлежит
-            разглашению третьим лицам.
+          <div class="aside-body">
+            <div class="managers-call">Звонок менеджера</div>
+            <div class="project-cost">Оценку стоимости проекта</div>
+            <div class="meeting-with-pm">
+              Встречу с менеджером проекта,
+              если необходимо
+            </div>
+            <div class="confidence">
+              Полученная информация
+              конфиденциальна и не подлежит
+              разглашению третьим лицам.
+            </div>
           </div>
         </div>
       </div>
