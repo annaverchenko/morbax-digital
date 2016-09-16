@@ -1,3 +1,11 @@
+.contact-form-wrap {
+  legend {
+    font-size: $font-size-xxxmedium;
+    padding-left: 15px;
+    text-transform: none;
+  }
+}
+
 .contact-form {
   @include flex-parent($justify-content: space-between, $align-items: flex-end);
 

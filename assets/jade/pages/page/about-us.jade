@@ -1,0 +1,76 @@
+extends ../../_layouts/_main-layout
+
+block page-title
+    | About-us
+
+block main-page
+    .about-us
+        include ../../_modules/_header
+
+        .title
+            .page-title о нас
+
+        .page-about-us
+            .company-introduction
+                img(src="../../../images/company-introduction_879x277.jpg")
+                div
+                    | Наш опыт, креатив, использование уникальных технологий в
+                    | создании сайтов и работа над многими известными проектами
+                    | служат гарантией того, что мы знаем, как создавать эффективные
+                    | решения для ведения бизнеса в интернете. Наш опыт, креатив,
+                    | использование уникальных технологий в создании сайтов и работа
+                    | над многими известными проектами служат гарантией того, что мы
+                    | знаем, как создавать эффективные решения для ведения бизнеса в
+                    | интернете.
+
+            .why-morbax
+                .heading почему morbax?
+                .our-qualities
+                    div
+                        | Развитие вашего бизнеса
+                    div
+                        | Надежность проверена
+                    div
+                        | Слушаем и слышим
+                    div
+                        | Бесплатная поддержка
+                    div
+                        | Подстройка под вашу бизнесс-модель
+            .our-team
+                .heading наша команда
+                    .our-team-slider
+                        .slider5
+                            .slide
+                                a(href="#")
+                                    img(src="../../../images/our-team-slider-pic-1_426x330.png")
+                                    .details
+                                        .name emma dowson
+                                        .profession senior designer
+                            .slide
+                                a(href="#")
+                                    img(src="../../../images/our-team-slider-pic-2_426x330.png")
+                                    .details
+                                        .name lara croft
+                                        .profession Graphic Designer
+                            .slide
+                                a(href="#")
+                                    img(src="../../../images/our-team-slider-pic-3_426x330.png")
+                                    .details
+                                        .name emma dowson
+                                        .profession senior designer
+                            .slide
+                                a(href="#")
+                                    img(src="../../../images/our-team-slider-pic-1_426x330.png")
+                                    .details
+                                        .name emma dowson
+                                        .profession senior designer
+                            .slide
+                                a(href="#")
+                                    img(src="../../../images/our-team-slider-pic-2_426x330.png")
+                                    .details
+                                        .name emma dowson
+                                        .profession senior designer
+
+            fieldset
+                legend Задайте нам вопрос
+                include ../../_modules/_contact-form

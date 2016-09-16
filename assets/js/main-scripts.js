@@ -18,10 +18,13 @@ $(document).ready(function(){
     });
 });
 
-//(function($) {
-//    $(function() {
-//
-//        $('input, select').styler();
-//
-//    });
-//})(jQuery);
+$(document).ready(function(){
+    $('.slider5').bxSlider({
+        slideWidth: 426,
+        minSlides: 3,
+        maxSlides: 3,
+        moveSlides: 1,
+        slideMargin: 0
+    });
+});
+

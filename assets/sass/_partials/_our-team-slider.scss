@@ -1,0 +1,56 @@
+.our-team-slider {
+  width: 1280px;
+  height: 330px;
+  margin-top: 40px;
+
+  .bx-wrapper {
+    max-width: 1280px;
+  }
+}
+
+.our-team-slider .bx-wrapper {
+  max-width: 1280px;
+
+  .slide {
+    a {
+      display: block;
+      position: relative;
+
+      .details {
+        display: none;
+        position: absolute;
+        bottom: 40px;
+        right: 25px;
+        font-family: 'roboto-condensed', sans-serif;
+
+        .name {
+          font-size: $font-size-xxmedium;
+          font-weight: bold;
+          color: #60d4d4;
+        }
+
+        .profession {
+          margin-top: 10px;
+          font-size: $font-size-xxsmall;
+          color: #000;
+        }
+      }
+
+      &:hover .details {
+        display: block;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.our-team-slider .bx-prev {
+  left: 20px;
+}
+
+.our-team-slider .bx-next {
+  right: 20px;
+}

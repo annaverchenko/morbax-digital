@@ -1,0 +1,19 @@
+.company-introduction {
+  width: 880px;
+  margin: 0 auto;
+
+  img {
+    width: 879px;
+    height: 277px;
+
+  }
+
+  div {
+    width: 880px;
+    line-height: 28px;
+    margin: 50px auto 0;
+    font-family: 'roboto-condensed', sans-serif;
+    font-size: $font-size-medium;
+    font-weight: $font-weight-light;
+  }
+}

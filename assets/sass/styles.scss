@@ -1,5 +1,3 @@
-// Document: _catalog-styles.scss
-
 @import "_themes/themes";
 @import "_helpers/flexbox";
 @import "_helpers/mixins";
@@ -19,6 +17,10 @@
 @import "_partials/brief"; // Бриф
 @import "_partials/contact-form"; // Бриф
 @import "_partials/brief-aside"; // Бриф
+@import "_partials/about-us"; // О нас
+@import "_partials/company-introduction"; // О нас
+@import "_partials/our-team"; // О нас
+@import "_partials/our-team-slider"; // О нас
 
 
 //main-page

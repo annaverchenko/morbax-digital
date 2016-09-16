@@ -1,0 +1,77 @@
+.about-us {
+  @include flex-parent($align-items: center, $flex-direction: column, $flex-wrap: nowrap);
+
+  margin: 0 auto;
+  position: relative;
+  font-family: 'roboto-condensed', sans-serif;
+}
+
+.title {
+  .page-title {
+    width: 500px;
+    font-family: 'roboto-condensed', sans-serif;
+    font-weight: bold;
+    font-size: $font-size-xxmedium;
+    color: #fefefe;
+  }
+}
+
+.page-about-us {
+  @include flex-parent();
+
+  width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 100px; // space 
+
+  fieldset {
+    width: 800px;
+    margin: 70px auto 0;
+
+    legend {
+      display: inline-block;
+      font-size: $font-size-xxxmedium;
+      padding-left: 15px;
+      text-transform: none;
+    }
+  }
+}
+
+.why-morbax {
+  width: 880px;
+  line-height: 28px;
+  margin: 80px auto 0;
+
+  .our-qualities {
+    @include flex-parent($flex-wrap: nowrap, $justify-content: space-between);
+
+    margin-top: 40px;
+
+    div {
+      flex-grow: 1;
+      flex-basis: 100%;
+      padding: 130px 10px 0 10px;
+      text-align: center;
+      background-color: #00a885;
+    }
+
+    div:first-child {
+      background: url('../images/your-business-grow_102x102.png') no-repeat 50% 0;
+    }
+
+    div:nth-child(2) {
+      background: url('../images/safety_102x102.png') no-repeat 50% 0;
+    }
+
+    div:nth-child(3) {
+      background: url('../images/listen_102x102.png') no-repeat 50% 0;
+    }
+
+    div:nth-child(4) {
+      background: url('../images/free-help_102x102.png') no-repeat 50% 0;
+    }
+
+    div:last-child {
+      background: url('../images/your-business-model-support_102x102.png') no-repeat 50% 0;
+    }
+  }
+}

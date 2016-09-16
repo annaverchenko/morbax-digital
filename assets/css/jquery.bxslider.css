@@ -205,13 +205,17 @@
 }
 
 
-/* Personal Styles */
+/*
+-----------------------------------
+Personal Styles
+-----------------------------------
+*/
 
+
+/* Our-works */
 
 .bx-wrapper .bx-viewport {
-	/*border:  4px solid #fff;*/
 	left: 1px;
-	/*background: #fff;*/
 	box-shadow: none;
 }
 
@@ -243,3 +247,6 @@
 .bx-wrapper .bx-next:hover {
 	background-image: url("../images/next_active_26x45.png");
 }
+
+
+
