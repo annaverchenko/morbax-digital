@@ -1,0 +1,28 @@
+extends ../../_layouts/_main-layout
+
+block page-title
+    | Contacts
+
+block main-page
+    .contacts
+        include ../../_modules/_header
+
+        .title
+            .page-title контакты
+
+        .page-contacts
+            .map
+
+            .page-contacts-introduction
+                .heading Проектирование, дизайн и разработка
+                    div сложных интернет проектов
+                .introduction
+                    |  Мы всегда открыты для общения и новых знакомств.
+                    | И даже когда наш офис закрыт, мы рады пообщаться
+                    | по почте или по телефону. Хотите поговорить с нашим
+                    | руководителем?
+                    p Напишите Николаю в Facebook, он будет рад!
+
+                .contact-form-wrap
+                    fieldset
+                        include ../../_modules/_contact-form

@@ -1,18 +1,19 @@
 .about-us {
   @include flex-parent($align-items: center, $flex-direction: column, $flex-wrap: nowrap);
 
+  width: 100%;
   margin: 0 auto;
   position: relative;
   font-family: 'roboto-condensed', sans-serif;
-}
 
-.title {
-  .page-title {
-    width: 500px;
-    font-family: 'roboto-condensed', sans-serif;
-    font-weight: bold;
-    font-size: $font-size-xxmedium;
-    color: #fefefe;
+  .title {
+    .page-title {
+      width: 500px;
+      font-family: 'roboto-condensed', sans-serif;
+      font-weight: bold;
+      font-size: $font-size-xxmedium;
+      color: #fefefe;
+    }
   }
 }
 
@@ -21,7 +22,7 @@
 
   width: 1280px;
   margin: 0 auto;
-  padding-bottom: 100px; // space 
+  padding-bottom: 100px; // space
 
   fieldset {
     width: 800px;
