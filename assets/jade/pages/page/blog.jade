@@ -1,0 +1,39 @@
+extends ../../_layouts/_main-layout
+
+block page-title
+    | Blog
+
+block main-page
+    .our-blog
+        include ../../_modules/_header
+
+        .title
+            .page-title Блог
+
+        .page-blog
+            .articles-list
+                .article.pictured
+                    img(src="../../../images/blog-picture_288x160.jpg")
+                    include ../../_modules/_card-small
+                .article.not-pictured
+                    include ../../_modules/_card-small
+                .article.pictured
+                    img(src="../../../images/blog-picture_288x160.jpg")
+                    include ../../_modules/_card-small
+                .article.not-pictured
+                    include ../../_modules/_card-small
+            .blog-aside
+                form
+                    input(type="submit" value="Поиск")
+                    input(type="text" value="Плиск по сайту")
+                .latest-articles-list
+                    .article-item Job Stories для проектирования интерфейсов
+                    .article-item Прелести интерфейса на частично перекрывающихся слоях
+                    .article-item Семишаговый тест логотипа Пола Рэнда
+                    .article-item HL7 FHIR: Fast Healthcare Interoperability Resources
+                    .article-item
+                        | Свой шаблон отклика-письма на HeadHunter
+                        | (и moikrug) без Copy-Paste
+                    .article-item
+                        | Дайджест продуктового дизайна, май 2015
+                    include ../../_modules/_social

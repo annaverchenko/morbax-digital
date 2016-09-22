@@ -1,0 +1,47 @@
+.our-blog {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #e4e568;
+  font-family: 'roboto-condensed', sans-serif;
+
+  .page-blog {
+    @include flex-parent($flex-wrap: nowrap,
+    $justify-content: space-between
+    );
+
+    width: 880px;
+    margin: 0 auto;
+    background-color: #e5d6d5;
+
+    .articles-list {
+      width: 590px;
+      overflow: hidden;
+      background-color: #00a885;
+
+      .article {
+        width: 288px;
+
+
+        float: left;
+
+        img {
+          width: 288px;
+          height: 160px;
+        }
+
+        .card-small {
+          @include flex-parent($justify-content: center);
+          @include box-sizing();
+
+          padding: 0 20px;
+          background-color: #ccc;
+        }
+      }
+    }
+
+    .blog-aside {
+      width: 285px;
+      background-color: #0088CC;
+    }
+  }
+}

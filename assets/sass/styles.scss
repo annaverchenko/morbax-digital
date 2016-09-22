@@ -9,11 +9,11 @@
 @import "_partials/media-queries";
 @import "_partials/btn-menu";
 @import "_partials/header";
-@import "_partials/our-works";
-@import "_partials/catalog-of-our-works-list";
-@import "_partials/application-block";
-@import "_partials/our-works-gallery";
-@import "_partials/our-works-gallery-companies__slider";
+@import "_partials/our-works"; // Работа
+@import "_partials/catalog-of-our-works-list"; // Портфолио
+@import "_partials/application-block"; // Работа
+@import "_partials/our-works-gallery"; // Портфолио
+@import "_partials/our-works-gallery-companies__slider"; // Портфолио
 @import "_partials/brief"; // Бриф
 @import "_partials/contact-form"; // Бриф
 @import "_partials/brief-aside"; // Бриф
@@ -22,6 +22,7 @@
 @import "_partials/our-team"; // О нас
 @import "_partials/our-team-slider"; // О нас
 @import "_partials/contacts"; // Контакты
+@import "_partials/blog"; // Блог
 
 
 //main-page
