@@ -1,0 +1,35 @@
+.card-footer {
+  @include flex-parent($justify-content: space-between);
+  @include box-sizing();
+
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 16px;
+  padding: 0 20px;
+  background-color: #ebebeb;
+
+  .time-posted {
+    padding-left: 20px;
+    color: #555;
+    font-size: $font-size-xsmall;
+    font-weight: 200;
+    background: url('../images/time-posted-icon-grey_15x15.png') no-repeat 0 50%;
+  }
+
+  .like-message {
+    @include flex-parent();
+
+    .likes {
+      display: block;
+      padding-left: 15px;
+      width: 17px;
+      background: url('../images/likes-icon-grey_17x14.png') no-repeat 0 50%;
+    }
+
+    .messages {
+      display: block;
+      width: 16px;
+      background: url('../images/messages-icon-grey_16x17.png') no-repeat 0 50%;
+    }}
+}

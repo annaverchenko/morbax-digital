@@ -1,47 +1,39 @@
 .our-blog {
-  max-width: 1280px;
   margin: 0 auto;
-  background-color: #e4e568;
+  padding-bottom: 100px;
   font-family: 'roboto-condensed', sans-serif;
 
-  .page-blog {
-    @include flex-parent($flex-wrap: nowrap,
-    $justify-content: space-between
-    );
+    .page-blog {
+      @include flex-parent(
+      $align-items: center,
+      $justify-content: center,
+      $flex-direction: column);
 
-    width: 880px;
-    margin: 0 auto;
-    background-color: #e5d6d5;
+        .page-blog-wrap {
+          @include flex-parent($flex-wrap: nowrap, $justify-content: space-between);
 
-    .articles-list {
-      width: 590px;
-      overflow: hidden;
-      background-color: #00a885;
-
-      .article {
-        width: 288px;
-
-
-        float: left;
-
-        img {
-          width: 288px;
-          height: 160px;
+          width: 880px;
+          margin: 40px auto 0;
         }
 
-        .card-small {
-          @include flex-parent($justify-content: center);
-          @include box-sizing();
-
-          padding: 0 20px;
-          background-color: #ccc;
+        .download-more-articles {
+          a {
+            display: block;
+            width: 285px;
+            height: 42px;
+            line-height: 42px;
+            text-align: center;
+            overflow: auto;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'roboto-condensed', sans-serif;
+            font-size: $font-size-small;
+            font-weight: 400;
+            color: #fff;
+            background-color: #fd662b;
+            text-transform: uppercase;
+          }
         }
-      }
-    }
 
-    .blog-aside {
-      width: 285px;
-      background-color: #0088CC;
-    }
   }
 }
