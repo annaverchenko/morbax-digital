@@ -9,27 +9,28 @@
   padding: 0 20px;
   background-color: #ebebeb;
 
-  .time-posted {
-    padding-left: 20px;
-    color: #555;
-    font-size: $font-size-xsmall;
-    font-weight: 200;
-    background: url('../images/time-posted-icon-grey_15x15.png') no-repeat 0 50%;
-  }
-
-  .like-message {
-    @include flex-parent();
-
-    .likes {
-      display: block;
-      padding-left: 15px;
-      width: 17px;
-      background: url('../images/likes-icon-grey_17x14.png') no-repeat 0 50%;
+    .time-posted {
+      padding-left: 20px;
+      font-size: $font-size-xsmall;
+      font-weight: 200;
+      color: #555;
+      background: url('../images/time-posted-icon-grey_15x15.png') no-repeat 0 50%;
     }
 
-    .messages {
-      display: block;
-      width: 16px;
-      background: url('../images/messages-icon-grey_16x17.png') no-repeat 0 50%;
-    }}
+    .like-message {
+      @include flex-parent();
+
+        .likes {
+          display: block;
+          width: 17px;
+          padding-left: 15px;
+          background: url('../images/likes-icon-grey_17x14.png') no-repeat 0 50%;
+        }
+
+        .messages {
+          display: block;
+          width: 16px;
+          background: url('../images/messages-icon-grey_16x17.png') no-repeat 0 50%;
+        }
+    }
 }

@@ -1,9 +1,4 @@
-
-// .our-works-gallery-companies__slider
-
-.our-works-gallery-companies__slider {
-  width: 100%;
-}
+.our-works-gallery-companies__slider { width: 100%; }
 
 .our-works-gallery-companies-slider__title {
   @include flex-parent($justify-content: space-between);
@@ -15,38 +10,37 @@
 
 .other-works {
   margin: 0 0 20px 80px;
-  text-transform: uppercase;
-  font-weight: bold;
   font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .back-to-catalog {
-
-  a {
-    margin: 0 40px 25px 0;
-    padding-right: 25px;
-    text-decoration: underline;
-    font-size: $font-size-small;
-    font-weight: $font-weight-light;
-    color: #ccc;
-    background: url("../images/back-to-catalog-arrow_15x11.png") no-repeat 100% 50%;
-  }
+    a {
+      margin: 0 40px 25px 0;
+      padding-right: 25px;
+      background: url("../images/back-to-catalog-arrow_15x11.png") no-repeat 100% 50%;
+      font-size: $font-size-small;
+      font-weight: $font-weight-light;
+      color: #ccc;
+      text-decoration: underline;
+    }
 }
 
 .info-wrapper {
+  font-family: 'roboto-condensed', sans-serif;
   color: #fefefe;
   text-align: center;
-  font-family: 'roboto-condensed', sans-serif;
 
-  .company-link {
-    margin: 15px 0 10px 0;
-    text-decoration: underline;
-    font-size: $font-size-xxxmedium;
-    font-weight: $font-weight-normal;
-  }
+    .company-link {
+      margin: 15px 0 10px 0;
+      font-size: $font-size-xxxmedium;
+      font-weight: $font-weight-normal;
+      text-decoration: underline;
+    }
 
-  .company-specialization {
-    font-weight: $font-weight-light;
-    opacity: 0.7;
-  }
+    .company-specialization {
+      font-weight: $font-weight-light;
+      opacity: 0.7;
+    }
 }

@@ -10,9 +10,9 @@
       background-color: #f8f7f7;
       font-size: $font-size-small;
       font-weight: bold;
-      text-transform: uppercase;
       color: #777777;
       text-align: center;
+      text-transform: uppercase;
     }
 
   .article-items-list {
@@ -23,9 +23,9 @@
     .article-item {
       display: block;
       margin-top: 16px;
-      text-decoration: underline;
       font-size: $font-size-small;
       color: #555;
+      text-decoration: underline;
       cursor: pointer;
     }
   }

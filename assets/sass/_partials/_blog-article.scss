@@ -1,0 +1,46 @@
+.page-article {
+  @include flex-parent($flex-wrap: nowrap, $justify-content: space-between);
+
+  max-width: 890px;
+  margin: 40px auto 0;
+
+    .blog-article {
+      width: 570px;
+      text-align: center;
+
+        .rubric { margin-top: 0; }
+
+        .article-name {
+          width: 440px;
+          margin: 25px auto 0;
+        }
+
+        .posted {
+          margin: 15px auto 0;
+          font-size: $font-size-small;
+          font-weight: 200;
+          color: #777;
+        }
+    }
+}
+
+.like {
+  width: 100%;
+  height: 35px;
+  margin-top: 30px;
+  background: #ebebeb url('../images/like-icon_blue_30x26.png') no-repeat 50% 50%;
+}
+
+.return-to-articles-list {
+  margin-top: 20px;
+
+  a {
+    display: block;
+    padding-left: $spacing-large;
+    font-size: $font-size-small;
+    color: #777;
+    background: url('../images/back-to-the-articles-list-grey_16x11.png') no-repeat 15px 50%;
+    text-decoration: underline;
+    text-align: left;
+  }
+}

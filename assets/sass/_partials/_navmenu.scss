@@ -1,46 +1,40 @@
-// navmenu
-
 nav {
   width: 1200px;
-}
 
-ul {
-  @include flex-parent($justify-content: space-between);
+    ul {
+      @include flex-parent($justify-content: space-between);
 
-  padding-right: $spacing-xlarge;
-  list-style: none;
-}
+      padding-right: $spacing-xlarge;
+      list-style: none;
 
-li {
-  line-height: 100px;
-  flex-grow: 1;
-  text-align: center;
+        li {
+          line-height: 100px;
+          flex-grow: 1;
+          text-align: center;
 
-  a {
-    display: block;
-    font-size: $font-size-xmedium;
-    font-weight: $font-weight-light;
-    color: #fefefe;
-    text-decoration: none;
-    position: relative;
+            a {
+              display: block;
+              font-size: $font-size-xmedium;
+              font-weight: $font-weight-light;
+              color: #fefefe;
+              text-decoration: none;
+              position: relative;
 
-    &:before {
-      display: block;
-      content: '';
-      width: 2px;
-      height: 50px;
-      background-color: #484848;
-      position: absolute;
-      top: 25px;
-      right: 0;
+                &:before {
+                  display: block;
+                  content: '';
+                  width: 2px;
+                  height: 50px;
+                  background-color: #484848;
+                  position: absolute;
+                  top: 25px;
+                  right: 0;
+                }
+            }
+        }
+
+        li:last-child a:before { display: none; }
     }
-  }
 }
 
-li:last-child a:before {
-  display: none;
-}
-
-span:hover {
-  border-bottom: 1px solid #fff;
-}
+span:hover { border-bottom: 1px solid #fff; }

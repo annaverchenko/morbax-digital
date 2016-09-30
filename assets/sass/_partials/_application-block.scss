@@ -1,5 +1,5 @@
 .application-block {
-  width:100%;
+  width: 100%;
   padding-bottom: 45px;
 }
 
@@ -15,14 +15,14 @@
   @include flex-parent($align-items: center);
   margin-top: 30px;
 
-  .post-an-order {
-    margin-left: 70px;
-    padding-right: 70px;
-    padding-left: 70px;
-    margin-top: 0;
-    color: #fefefe;
-    text-transform: uppercase;
-  }
+    .post-an-order {
+      margin-left: 70px;
+      padding-right: 70px;
+      padding-left: 70px;
+      margin-top: 0;
+      color: #fefefe;
+      text-transform: uppercase;
+    }
 }
 
 .call-us-cell {
@@ -34,7 +34,6 @@
   font-size: $font-size-medium;
   font-weight: $font-weight-normal;
   color: #fefefe;
-
 }
 
 .contact-cell {

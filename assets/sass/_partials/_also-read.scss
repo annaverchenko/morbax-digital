@@ -1,0 +1,28 @@
+.also-read {
+  margin-top: 30px;
+  padding-bottom: 40px;
+  font-size: $font-size-xsmall;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d7d7d7;
+
+    .read-more { text-align: left; }
+
+    .short-articles-list {
+      @include flex-parent( $justify-content: space-between );
+
+      margin-top: 30px;
+
+        .short-article-item { width: 166px; }
+
+        .rubric { font-size: $font-size-xxsmall; }
+
+        .article-name {
+          width: 166px;
+          margin-top: 20px;
+          font-size: $font-size-small;
+          text-transform: none;
+        }
+    }
+}

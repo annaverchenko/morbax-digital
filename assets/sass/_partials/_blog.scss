@@ -10,29 +10,29 @@
       $flex-direction: column);
 
         .page-blog-wrap {
-          @include flex-parent($flex-wrap: nowrap, $justify-content: space-between);
+          @include flex-parent( $flex-wrap: nowrap, $justify-content: space-between );
 
           width: 880px;
           margin: 40px auto 0;
         }
 
         .download-more-articles {
-          a {
-            display: block;
-            width: 285px;
-            height: 42px;
-            line-height: 42px;
-            text-align: center;
-            overflow: auto;
-            border-radius: 4px;
-            cursor: pointer;
-            font-family: 'roboto-condensed', sans-serif;
-            font-size: $font-size-small;
-            font-weight: 400;
-            color: #fff;
-            background-color: #fd662b;
-            text-transform: uppercase;
-          }
+            a {
+              display: block;
+              width: 285px;
+              height: 42px;
+              line-height: 42px;
+              font-family: 'roboto-condensed', sans-serif;
+              font-size: $font-size-small;
+              font-weight: 400;
+              color: #fff;
+              background-color: #fd662b;
+              overflow: auto;
+              border-radius: 4px;
+              cursor: pointer;
+              text-align: center;
+              text-transform: uppercase;
+            }
         }
 
   }

@@ -1,5 +1,3 @@
-// catalog-of-our-works-list
-
 .catalog-of-our-works-list {
   @include flex-parent(
           $justify-content: flex-start,
@@ -19,22 +17,20 @@
   margin-top: $spacing-xxsmall;
   overflow: hidden;
 
-  &:nth-child(4n+1) {
-    margin-left: 0;
-  }
+    &:nth-child(4n+1) { margin-left: 0; }
 
-  a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: url("../images/our-works-item-1-316x316.png") no-repeat 50% 50%;
-    background-size: cover;
-  }
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: url("../images/our-works-item-1-316x316.png") no-repeat 50% 50%;
+      background-size: cover;
+    }
 
-  &:hover a {
-    transition: all 300ms linear 300ms;
-    transform: scale(1.3);
-  }
+    &:hover a {
+      transition: all 300ms linear 300ms;
+      transform: scale(1.3);
+    }
 }
 
 .empty-item {
@@ -46,12 +42,11 @@
   margin-top: $spacing-xxsmall;
   background: url("../images/empty-item-316x316.png") no-repeat 50% 50%;
 
-  .download-more-of-our-works {
-
-    font-weight: 400;
-    font-size: 14px;
-    text-decoration: underline;
-    color: #fefefe;
-    text-transform: uppercase;
-  }
+    .download-more-of-our-works {
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: underline;
+      color: #fefefe;
+    }
 }

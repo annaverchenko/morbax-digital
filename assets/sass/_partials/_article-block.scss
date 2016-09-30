@@ -1,0 +1,12 @@
+.article-block {
+  margin-top: 30px;
+  text-align: left;
+
+  .text-block {
+    width: 100%;
+    line-height: 22px;
+    margin-top: 30px;
+    font-size: $font-size-small;
+    color: #777;
+  }
+}

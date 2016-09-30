@@ -1,5 +1,3 @@
-//our_works.jade .our-works-gallery
-
 .our-works-gallery {
   width: 880px;
   margin: 0 auto;
@@ -7,7 +5,7 @@
 }
 
 .our-works-gallery-company__opened {
-  @include flex-parent($align-items: center);
+  @include flex-parent ($align-items: center);
   @include relative ( top -100px left 0px );
 
   width: 612px;
@@ -18,11 +16,11 @@
   width: 100%;
   height: 62px;
   background: url('../images/company-main-logo_212x62.png') no-repeat 50% 50%;
-  margin: 0.5rem auto 0;
+  margin: $spacing-xsmall auto 0;
 }
 
 .our-works-gallery-company__web-site {
-  width:100%;
+  width: 100%;
   margin-top: $spacing-xxlarge;
   font-weight: $font-weight-normal;
   font-size: $font-size-xmedium;
@@ -40,6 +38,4 @@
   text-align: center;
 }
 
-.our-works-gallery-company__web-site-miniature {
-  width:100%;
-}
+.our-works-gallery-company__web-site-miniature { width:100%; }

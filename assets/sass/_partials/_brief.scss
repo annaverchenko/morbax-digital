@@ -1,15 +1,14 @@
 .brief {
   flex-grow: 2;
-  font-family: 'roboto-condensed', sans-serif;
-  .title {
-    .page-title {
-      width: 500px;
-      font-family: 'roboto-condensed', sans-serif;
-      font-weight: bold;
-      font-size: $font-size-xxmedium;
-      color: #fefefe;
+    .title {
+        .page-title {
+          width: 500px;
+          font-family: 'roboto-condensed', sans-serif;
+          font-size: $font-size-xxmedium;
+          font-weight: bold;
+          color: #fefefe;
+        }
     }
-  }
 }
 
 .our-brief-form {
@@ -22,46 +21,40 @@
   background-color: #fff;
 }
 
-form {
-  @include flex-parent($flex-direction: column);
-}
+form { @include flex-parent( $flex-direction: column ); }
 
 fieldset {
   margin: 0;
   margin-top: 30px;
   border: none;
 
-  &:first-child {
-    margin-top: 0;
-  }
+    &:first-child { margin-top: 0; }
 
-  legend {
-    font-family: 'roboto-condensed', sans-serif;
-    font-size: $font-size-small;
-    font-weight: bold;
-    color: #000;
-    text-transform: uppercase;
-  }
+    legend {
+      font-family: 'roboto-condensed', sans-serif;
+      font-size: $font-size-small;
+      font-weight: bold;
+      color: #000;
+      text-transform: uppercase;
+    }
 
-  label {
-    display: block;
-    font-family: 'roboto-condensed', sans-serif;
-    font-size: $font-size-medium;
-    font-weight: $font-weight-normal;
-    color: #333;
-  }
+    label {
+      display: block;
+      font-family: 'roboto-condensed', sans-serif;
+      font-size: $font-size-medium;
+      font-weight: $font-weight-normal;
+      color: #333;
+    }
 
-  .project-goals > label,
-  .more > label,
-  .functions-needed > label,
-  .pages-quantity > label,
-  .color-scheme > label,
-  .preferance > label,
-  .info-style > label,
-  .company-style > label,
-  .design > label {
-    margin: 15px 0;
-  }
+    .project-goals > label,
+    .more > label,
+    .functions-needed > label,
+    .pages-quantity > label,
+    .color-scheme > label,
+    .preferance > label,
+    .info-style > label,
+    .company-style > label,
+    .design > label { margin: 15px 0; }
 }
 
 .center {
@@ -74,22 +67,21 @@ fieldset {
   @include box-sizing();
 
   padding: 10px;
-  //background-color: #81e5b5;
 
-  span {
-    color: #f26630;
-    font-size: $font-size-medium;
-  }
-
+    span {
+      color: #f26630;
+      font-size: $font-size-medium;
+    }
 }
+
 .note {
   margin-top: 20px;
   padding: 0 0 0 10px;
 
-  span {
-    color: #f26630;
-    font-size: $font-size-medium;
-  }
+    span {
+      color: #f26630;
+      font-size: $font-size-medium;
+    }
 }
 
 

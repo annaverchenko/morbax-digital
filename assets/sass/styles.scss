@@ -5,18 +5,18 @@
 @import "_helpers/spacing_n_sizing";
 @import "_helpers/typography";
 @import "_fonts/fonts";
-@import "_partials/navmenu";
 @import "_partials/media-queries";
-@import "_partials/btn-menu";
-@import "_partials/header";
+@import "_partials/navmenu"; // Меню навигации
+@import "_partials/btn-menu"; // Кнопка меню
+@import "_partials/header"; // Хедер с Лого
 @import "_partials/our-works"; // Работа
-@import "_partials/catalog-of-our-works-list"; // Портфолио
 @import "_partials/application-block"; // Работа
+@import "_partials/catalog-of-our-works-list"; // Портфолио
 @import "_partials/our-works-gallery"; // Портфолио
 @import "_partials/our-works-gallery-companies__slider"; // Портфолио
 @import "_partials/brief"; // Бриф
 @import "_partials/contact-form"; // Бриф
-@import "_partials/brief-aside"; // Бриф
+@import "_partials/brief-aside"; // Бриф (aside)
 @import "_partials/about-us"; // О нас
 @import "_partials/company-introduction"; // О нас
 @import "_partials/our-team"; // О нас
@@ -26,8 +26,11 @@
 @import "_partials/article"; // Блог
 @import "_partials/article-description"; // Блог
 @import "_partials/card-footer"; // Блог
-@import "_partials/blog-aside"; // Блог
+@import "_partials/blog-aside"; // Блог (aside)
 @import "_partials/latest-articles-list"; // Блог
+@import "_partials/blog-article"; // Блог - статья
+@import "_partials/article-block"; // Блог - статья (в развороте)
+@import "_partials/also-read"; // Блог - статья (также читайте)
 
 
 //main-page
@@ -37,10 +40,10 @@
   max-width: 1600px;
   height: 100vh;
   margin: 0 auto;
+  font-family: 'roboto-condensed', sans-serif;
   background: url("../images/main-page-bg.png") no-repeat center;
   background-size: cover;
   position: relative;
-  font-family: 'roboto-condensed', sans-serif;
 }
 
 .logo {
@@ -58,8 +61,8 @@
   font-weight: $font-weight-normal;
   text-transform: uppercase;
 
-  div {
-    font-weight: $font-weight-bolder;
-    font-size: $font-size-large;
-  }
+    div {
+      font-weight: $font-weight-bolder;
+      font-size: $font-size-large;
+    }
 }

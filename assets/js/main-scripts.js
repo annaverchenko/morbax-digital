@@ -32,13 +32,20 @@ $(document).ready(function(){
 // init with element
 var grid = document.querySelector('.grid');
 var msnry = new Masonry( grid, {
-    // options...
     itemSelector: '.grid-item',
     columnWidth: 288
 });
 
 // init with selector
-var msnry = new Masonry( '.grid', {
-    // options...
+var msnry = new Masonry( '.grid', {});
+
+$(document).ready(function () {
+    $('.btn-menu').click(function() {
+        $('.opened-menu').addClass('flexme');
+    });
+
+    $('.close-menu > a').click(function(){
+        $('.opened-menu').removeClass('flexme');
+    });
 });
 

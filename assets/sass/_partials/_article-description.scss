@@ -1,27 +1,26 @@
 .article-description {
   padding: 0 20px;
 
-  .line {
-    width: 155px;
-    height: 7px;
-    margin: 16px auto 0;
-    background-color: #e5f4f4;
-  }
+    .line {
+      width: 155px;
+      height: 7px;
+      margin: 16px auto 0;
+      background-color: #e5f4f4;
+    }
 
-  .short-description {
-    margin-top: 16px;
-    color: #777;
-    font-weight: 200;
-    font-size: $font-size-small;
-  }
+    .short-description {
+      margin-top: 16px;
+      font-weight: 200;
+      font-size: $font-size-small;
+      color: #777;
+    }
 
-  .more {
-    display: block;
-    margin-top: 16px;
-    color: #f26630;
-    font-size: $font-size-small;
-    font-weight: 200;
-    text-decoration: underline;
-  }
-
+    .more {
+      display: block;
+      margin-top: 16px;
+      font-size: $font-size-small;
+      font-weight: 200;
+      color: #f26630;
+      text-decoration: underline;
+    }
 }
